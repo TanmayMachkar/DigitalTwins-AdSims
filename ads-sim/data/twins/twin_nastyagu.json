@@ -1,0 +1,31 @@
+{
+  "id": "twin_nastyagu",
+  "username": "nastyagu",
+  "activity_count": 1,
+  "interests": [
+    "scraping",
+    "technique",
+    "would",
+    "seem",
+    "this"
+  ],
+  "post_times": [
+    1745871513.0
+  ],
+  "history_sample": [
+    {
+      "id": "1ka5h19",
+      "title": "Resources to learn scraping technique for recovery",
+      "selftext": "Hi all! I was wondering if anyone could recommend a resource that would describe a proper technique for scraping. I\u2019ve heard it might yield good results for older injuries in addition to PT, but can\u2019t seem to find any reliable sources on the actual step-by-step guide on how to do it (pressure, angle, etc). The last reddit posts about scraping on this thread seem to offer a more general discussion of this method. I\u2019d like to attempt it on my hips. Would appreciate any advice or leads!",
+      "author": "nastyagu",
+      "created_utc": 1745871513.0,
+      "score": 3,
+      "num_comments": 2,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

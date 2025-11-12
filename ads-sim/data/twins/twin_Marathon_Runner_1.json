@@ -1,0 +1,32 @@
+{
+  "id": "twin_Marathon_Runner_1",
+  "username": "Marathon_Runner_1",
+  "activity_count": 1,
+  "interests": [
+    "water",
+    "stations",
+    "runners",
+    "they",
+    "paris"
+  ],
+  "post_times": [
+    1759866760.0
+  ],
+  "history_sample": [
+    {
+      "id": "1o0pabw",
+      "title": "Paris Marathon - no cups/bottles at water stations - thoughts?",
+      "selftext": "I've entered Paris Marathon but only recently saw the communications regarding no cups or bottles at water stations.\n\nThis concerns me for several reasons, but largely bottlenecks on course around water stations causing accidents / delays to runners, runners not being able to get water if they need it (due to crowding, or if they have dropped their reusable cup/bottle and not noticed) and also asking runners to have to physically stop each time they want water.\n\nHas anyone else got any thoughts or comments on this?",
+      "author": "Marathon_Runner_1",
+      "created_utc": 1759866760.0,
+      "score": 270,
+      "num_comments": 327,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "instagram",
+    "youtube"
+  ]
+}

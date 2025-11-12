@@ -1,0 +1,43 @@
+{
+  "id": "twin_Erollins04",
+  "username": "Erollins04",
+  "activity_count": 2,
+  "interests": [
+    "with",
+    "running",
+    "this",
+    "runner",
+    "distance"
+  ],
+  "post_times": [
+    1742214101.0,
+    1741978766.0
+  ],
+  "history_sample": [
+    {
+      "id": "1jdbbl5",
+      "title": "My 9yo son is increasingly running with me - advice for coaching at this age?",
+      "selftext": "Hi all - I'm an older runner (in the *Masters* category of most races) but my middle child (9yo male) has lately been running with me, which is truly a wonderful thing. I run races from 5k to half marathons, with my eyes set on my first full marathon. My son has done several 5ks with me, and is interested in maybe an 8k. Now here's the tricky part - speed! I'm not fast, and when I'm running longer distance (>10k), I really try to pay more attention to my HR than my pace. I think my son is fast for his age, and if he trains, he can get *faster*. Meanwhile I'm not super interested in getting faster, I'm focusing on moving from 1/2 marathon to full distance.\n\nSo the discussion: How should a 9yo be training, if at all? What level of performance should he be targeting to be a runner in High School and possibly beyond? And how do I balance speed training on 5k courses against distance training for my own goals?\n\nThanks all!",
+      "author": "Erollins04",
+      "created_utc": 1742214101.0,
+      "score": 306,
+      "num_comments": 53,
+      "subreddit": "running"
+    },
+    {
+      "id": "1jbbd97",
+      "title": "2025 Update on the App & Tech Stack Question",
+      "selftext": "I'm a moderately active runner who uses an Apple Watch Ultra and MapMyRun fairly regularly. I have exported my data for use in personal visualization tools in the past. I've been considering using the paid upgrade to MMR, and came to /running to find what fellow redditors think.\n\nBy and large I've found overwhelming enthusiasm for several apps & tools, but very little discussion of MMR - so I'm wondering, all else being equal, what's a good stack? I'm in Apple products, though I've had a Polar HR band in the past, and I'm not averse to spending $ on gadgets or services that are worthwhile. I'm not much for the social aspect of run clubs (ie, Strava), and I'm highly data literate.\n\nPosting this because the last discussion I found in this sub on MapMyRun in particular was 5 years old, and I respect Reddit's ability to bring likeminded folks together with well-informed opinions!",
+      "author": "Erollins04",
+      "created_utc": 1741978766.0,
+      "score": 2,
+      "num_comments": 15,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.98,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "twin_PrimeTime-x",
+  "username": "PrimeTime-x",
+  "activity_count": 1,
+  "interests": [
+    "your",
+    "opinion",
+    "chatgpt",
+    "using",
+    "coach"
+  ],
+  "post_times": [
+    1748952210.0
+  ],
+  "history_sample": [
+    {
+      "id": "1l2a3wz",
+      "title": "Your opinion on using AI as a Coach",
+      "selftext": "Hey all,\n\nim interested to hear your opinion on using AI (ChatGPT) as a coach to help you achieve your running goals. If you have used AI for this purpose, what exactly did you do with it and were you satisfied?  \nFor contexct: Im a 23 year old Male (hobby)-runner and i would describe myself as good for my age group but not a top athlete. I have used ChatGPT to vary my training for my half marathon PR (1:53:46) and currently finishing a 6 week plan from ChatGPT for an upcomming 5k and i am more than happy with it. Sometimes i also use it to help me to optimize my nutrition and sports psychologie related stuff :)\n\nSo what's your opinion?",
+      "author": "PrimeTime-x",
+      "created_utc": 1748952210.0,
+      "score": 0,
+      "num_comments": 40,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "instagram",
+    "youtube"
+  ]
+}

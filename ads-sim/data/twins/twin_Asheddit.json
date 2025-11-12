@@ -1,0 +1,31 @@
+{
+  "id": "twin_Asheddit",
+  "username": "Asheddit",
+  "activity_count": 1,
+  "interests": [
+    "faster",
+    "min/km",
+    "more",
+    "3:30",
+    "runners"
+  ],
+  "post_times": [
+    1757501348.0
+  ],
+  "history_sample": [
+    {
+      "id": "1ndav4l",
+      "title": "Are carbon-plated shoes really only effective for faster runners?",
+      "selftext": "I often see people say that carbon-plated shoes only really help at faster paces, and I\u2019m trying to wrap my head around that.\n\nFor example, a runner who\u2019s \u201cfast\u201d at 5:00 min/km (around a 50-min 10K) has a completely different running economy than someone who\u2019s fast at 3:30 min/km (around a 35-min 10K).\n\nFrom my own training, running at 3:30 min/km feels almost like a sprint \u2014 especially during strides \u2014 and I feel like I\u2019m putting a lot more force into the ground with each step. Meanwhile, faster runners can cruise at 3:30 min/km with much more efficiency.\n\nThat got me thinking:\n\n- If I\u2019m running at 3:30 min/km, am I using the carbon plate more than a faster runner at the same pace?\n\n- Do I get the same level of benefit if I\u2019m working just as hard (relative effort) as a faster runner?\n\n- And finally, would heavier runners see more benefit at slower paces since they\u2019re applying more force with each step?",
+      "author": "Asheddit",
+      "created_utc": 1757501348.0,
+      "score": 223,
+      "num_comments": 155,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

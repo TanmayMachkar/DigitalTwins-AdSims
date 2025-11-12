@@ -1,0 +1,31 @@
+{
+  "id": "twin_1dirtbiker",
+  "username": "1dirtbiker",
+  "activity_count": 1,
+  "interests": [
+    "trail",
+    "running",
+    "what",
+    "week",
+    "find"
+  ],
+  "post_times": [
+    1747098512.0
+  ],
+  "history_sample": [
+    {
+      "id": "1kl9doj",
+      "title": "What trail running apps do you use?",
+      "selftext": "I'm training for another marathon and will be out of town for a week. I'll being doing four runs over this week, and am trying to find good trails to run. I do Google searches and have been using All Trails, but they are generally more hiking oriented, and what makes a great hiking trail doesn't always make a good running trail. Just wondering if there is a running trail app that I'm not familiar with that you guys use. Just to be clear, I'm not looking for an app to plan a run, record a run, etc. I'm looking for an app to find established trails/runs. Thanks!",
+      "author": "1dirtbiker",
+      "created_utc": 1747098512.0,
+      "score": 9,
+      "num_comments": 24,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

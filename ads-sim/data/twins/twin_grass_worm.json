@@ -1,0 +1,32 @@
+{
+  "id": "twin_grass_worm",
+  "username": "grass_worm",
+  "activity_count": 1,
+  "interests": [
+    "climate",
+    "runners",
+    "cold",
+    "interesting",
+    "pace"
+  ],
+  "post_times": [
+    1745587162.0
+  ],
+  "history_sample": [
+    {
+      "id": "1k7kqro",
+      "title": "How do runners who life in places without season (near the equator) differs from runners in typical 4-season climate?",
+      "selftext": "Basically, the year round hot and humid climate brings many changes to how one train, race, fuel, etc. Well constant cold is also possible if living in altitude, but generally it is hot.\n\nOne interesting thing I noticed is that the pace distribution are quite different, like how the gap between 5k and marathon pace is usually greater.\n\nAnyone have any interesting findings and tips to share? What should be done if the person wants to run in cold, or even in \"ideal\" climate, such as around 10-15 C?",
+      "author": "grass_worm",
+      "created_utc": 1745587162.0,
+      "score": 296,
+      "num_comments": 135,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "twin_levi0xa",
+  "username": "levi0xa",
+  "activity_count": 1,
+  "interests": [
+    "long",
+    "runs",
+    "mind",
+    "running",
+    "without"
+  ],
+  "post_times": [
+    1753787637.0
+  ],
+  "history_sample": [
+    {
+      "id": "1mc8mbu",
+      "title": "How do you continue running long runs without letting your mind win?",
+      "selftext": "I started training for a half marathon since the beginning of summer after not running since right before COVID. \nOne thing I\u2019ve noticed is that while doing my long runs, I tend to either walk or stop the run completely despite not feeling physically tired. I feel like my mind controls my run far more than me. \nDo you guys have any tips on completing long runs without stopping? I\u2019ve tried listening to podcasts but I still feel like I can\u2019t block out my mind wandering and telling me to stop.",
+      "author": "levi0xa",
+      "created_utc": 1753787637.0,
+      "score": 570,
+      "num_comments": 454,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

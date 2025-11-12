@@ -1,0 +1,31 @@
+{
+  "id": "twin_Vivalo",
+  "username": "Vivalo",
+  "activity_count": 1,
+  "interests": [
+    "which",
+    "vest",
+    "marathon",
+    "london",
+    "thinking"
+  ],
+  "post_times": [
+    1742281306.0
+  ],
+  "history_sample": [
+    {
+      "id": "1jdz5tx",
+      "title": "Which do you prefer? Belt or vest pack for marathon",
+      "selftext": "I\u2019ll be doing my first marathon soon (London) and am thinking about what to use. \n\nI saw a lot of people using vest packs at the recent London winter run (10km). Which I thought was excessive for just 10km of distance.   42km however has me thinking. ",
+      "author": "Vivalo",
+      "created_utc": 1742281306.0,
+      "score": 11,
+      "num_comments": 113,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

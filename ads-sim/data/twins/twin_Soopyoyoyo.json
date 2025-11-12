@@ -1,0 +1,32 @@
+{
+  "id": "twin_Soopyoyoyo",
+  "username": "Soopyoyoyo",
+  "activity_count": 1,
+  "interests": [
+    "bear",
+    "country",
+    "running",
+    "black",
+    "when"
+  ],
+  "post_times": [
+    1750292245.0
+  ],
+  "history_sample": [
+    {
+      "id": "1lewxqd",
+      "title": "Running in black bear country",
+      "selftext": "When camping in bear country, I doubt there are any magic solutions here, but I usually just do laps of the campground (boring). Bear spray not allowed in some of these places. Any ideas/ tips? Generally can\u2019t go with other people / in a group. Thx!",
+      "author": "Soopyoyoyo",
+      "created_utc": 1750292245.0,
+      "score": 92,
+      "num_comments": 136,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "instagram",
+    "youtube"
+  ]
+}

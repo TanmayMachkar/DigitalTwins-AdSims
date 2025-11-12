@@ -1,0 +1,31 @@
+{
+  "id": "twin_LongLive_Capitalism",
+  "username": "LongLive_Capitalism",
+  "activity_count": 1,
+  "interests": [
+    "speedwork/workouts",
+    "does",
+    "average",
+    "runner",
+    "tough"
+  ],
+  "post_times": [
+    1744934570.0
+  ],
+  "history_sample": [
+    {
+      "id": "1k1rjhq",
+      "title": "Does the Average Runner do Speedwork/Workouts?",
+      "selftext": "Speedwork/workouts are tough, plus they take a ton of time out of your day. You might need to commute to a track, or a stretch of road or a path to do the workout on. Neither of these are very appealing to most people.",
+      "author": "LongLive_Capitalism",
+      "created_utc": 1744934570.0,
+      "score": 0,
+      "num_comments": 56,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

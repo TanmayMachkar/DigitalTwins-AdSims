@@ -1,0 +1,32 @@
+{
+  "id": "twin_airlesswhistler",
+  "username": "airlesswhistler",
+  "activity_count": 1,
+  "interests": [
+    "running",
+    "find",
+    "club",
+    "part",
+    "them"
+  ],
+  "post_times": [
+    1742906197.0
+  ],
+  "history_sample": [
+    {
+      "id": "1jjibfj",
+      "title": "Best way to find a running club?",
+      "selftext": "Hi Running,\n\nI\u2019m interested to find out if you\u2019re part of a running club? I see them popping up all over the place and wondered if you just show up to join?\n\nI see them on instagram all the time. \n\nWhat has been your experience if you are part of a running group?\n",
+      "author": "airlesswhistler",
+      "created_utc": 1742906197.0,
+      "score": 82,
+      "num_comments": 84,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "instagram",
+    "youtube"
+  ]
+}

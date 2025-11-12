@@ -1,0 +1,32 @@
+{
+  "id": "twin_maggisaucee",
+  "username": "maggisaucee",
+  "activity_count": 1,
+  "interests": [
+    "running",
+    "weather",
+    "when",
+    "tips",
+    "outside"
+  ],
+  "post_times": [
+    1753019806.0
+  ],
+  "history_sample": [
+    {
+      "id": "1m4pjwv",
+      "title": "Running in hot/humid weather",
+      "selftext": "Question for runners of all levels: how do you motivate yourself to go on a run when the weather is extremely hot or humid? Summers get pretty intense where I live and I sweat easily. Plus the extreme weather tires me out quickly and my feet feel too hot in my shoes (ASICS GT2000s). Any tips on how to maintain a regular running regimen when the weather outside is saying \"don't go\"? I know I can do indoor running on treadmills but I prefer outside.\n\nSide note, but tips for running in winter would also be appreciated.",
+      "author": "maggisaucee",
+      "created_utc": 1753019806.0,
+      "score": 251,
+      "num_comments": 365,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "twin_stonerbobo",
+  "username": "stonerbobo",
+  "activity_count": 1,
+  "interests": [
+    "running",
+    "distance",
+    "much",
+    "injury",
+    "training"
+  ],
+  "post_times": [
+    1755206584.0
+  ],
+  "history_sample": [
+    {
+      "id": "1mqdpwx",
+      "title": "How much running is too much - a study on injury",
+      "selftext": "Found this cool study that tries to identify what kinds of changes in training can cause injuries:\n\n[How much running is too much? Identifying high-risk running sessions in a 5200-person cohort study](https://bjsm.bmj.com/content/early/2025/07/07/bjsports-2024-109380.long) \n\nThey found that the usual acute:chronic ratio (e.g Garmin training load) type thing isn't predictive of injury. The risk was basically flat or even decreased slightly both with increasing training load and increasing weekly distance. Instead they say if you run more than 110% of the distance of the longest run in the past 30 days, injury risk goes up significantly. \n\nI'm coming back from a long-standing injury so I thought it was pretty interesting. I don't know if I'll disregard weekly mileage or load totally, but this says you should also watch the per run distance and ramp that up slowly.\n\nEDIT: I probably got the definition of acute:chronic ratio ACWR wrong above. It\u2019s not TSS or Garmin training load. It seems to be defined as (running distance in week 4) / (average running distance in weeks 1,2,3) where week 4 would be the current or latest week.",
+      "author": "stonerbobo",
+      "created_utc": 1755206584.0,
+      "score": 649,
+      "num_comments": 198,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

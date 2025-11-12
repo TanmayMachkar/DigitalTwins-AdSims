@@ -1,0 +1,7 @@
+letta
+praw
+tqdm
+requests
+python-dotenv
+uvicorn
+fastapi

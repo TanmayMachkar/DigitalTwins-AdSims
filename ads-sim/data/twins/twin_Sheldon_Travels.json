@@ -1,0 +1,31 @@
+{
+  "id": "twin_Sheldon_Travels",
+  "username": "Sheldon_Travels",
+  "activity_count": 1,
+  "interests": [
+    "build",
+    "have",
+    "mobile",
+    "export",
+    "files"
+  ],
+  "post_times": [
+    1746723271.0
+  ],
+  "history_sample": [
+    {
+      "id": "1khv1za",
+      "title": "What mobile app are you using to build & export .gpx files?",
+      "selftext": "I currently run with the AWU2 and use the WorkOutDoors app, which is great except you have to import .gpx files for routes and it can\u2019t build them itself.\n\nI usually use my computer and google maps, but im about to go on a month long trip and will not have my computer and need a mobile app I can use to build routes and then export as a .Gpx to WOD app.\n\nSo far, it looks like Gaia GPS, may be my best bet. Just curious if there are any other people have used.\n\nFree preferred please.",
+      "author": "Sheldon_Travels",
+      "created_utc": 1746723271.0,
+      "score": 27,
+      "num_comments": 44,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "twin_stemrog",
+  "username": "stemrog",
+  "activity_count": 1,
+  "interests": [
+    "results",
+    "2026",
+    "tokyo",
+    "marathon",
+    "lottery"
+  ],
+  "post_times": [
+    1758229818.0
+  ],
+  "history_sample": [
+    {
+      "id": "1nkkhfn",
+      "title": "2026 Tokyo Marathon lottery results",
+      "selftext": "Results should be released soon since it\u2019s September 19 in Japan.\n\nWho is ready for another rejection??\n\nLet us know when you\u2019re successful so we can all be more sad.",
+      "author": "stemrog",
+      "created_utc": 1758229818.0,
+      "score": 118,
+      "num_comments": 155,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

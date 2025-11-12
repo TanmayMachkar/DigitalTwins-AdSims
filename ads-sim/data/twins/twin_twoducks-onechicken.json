@@ -1,0 +1,31 @@
+{
+  "id": "twin_twoducks-onechicken",
+  "username": "twoducks-onechicken",
+  "activity_count": 1,
+  "interests": [
+    "best",
+    "race",
+    "this",
+    "handing",
+    "runners"
+  ],
+  "post_times": [
+    1751977155.0
+  ],
+  "history_sample": [
+    {
+      "id": "1lun2yo",
+      "title": "Best Mid-race Treat",
+      "selftext": "There\u2019s a big 15k race in my city this weekend. The course is always packed with spectators handing out things to the runners. I\u2019m not running this year and was thinking of handing out freeze pops but not sure the runners would like that. What\u2019s the best thing you\u2019ve been handed mid race?",
+      "author": "twoducks-onechicken",
+      "created_utc": 1751977155.0,
+      "score": 78,
+      "num_comments": 93,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

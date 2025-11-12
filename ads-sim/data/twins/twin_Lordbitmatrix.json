@@ -1,0 +1,32 @@
+{
+  "id": "twin_Lordbitmatrix",
+  "username": "Lordbitmatrix",
+  "activity_count": 1,
+  "interests": [
+    "that",
+    "post-marathon",
+    "blues",
+    "handle",
+    "anyone"
+  ],
+  "post_times": [
+    1749198342.0
+  ],
+  "history_sample": [
+    {
+      "id": "1l4n9ua",
+      "title": "Post-marathon blues \u2013 how do you handle it?",
+      "selftext": "Has anyone ever felt that strange emptiness after running a marathon? Like, the goal is gone and you\u2019re not sure what\u2019s next. How do you deal with it? Any tips or routines that help you get through it? \ud83d\ude22\ud83e\udd7a\ud83d\ude48",
+      "author": "Lordbitmatrix",
+      "created_utc": 1749198342.0,
+      "score": 109,
+      "num_comments": 80,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

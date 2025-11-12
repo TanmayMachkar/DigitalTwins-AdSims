@@ -1,0 +1,32 @@
+{
+  "id": "twin_mattsau",
+  "username": "mattsau",
+  "activity_count": 1,
+  "interests": [
+    "mile",
+    "year",
+    "runs",
+    "watch:",
+    "teen"
+  ],
+  "post_times": [
+    1742370071.0
+  ],
+  "history_sample": [
+    {
+      "id": "1jeroyk",
+      "title": "15 year old runs sub 4 mile",
+      "selftext": "Watch: Teen runner Sam Ruthe breaks record sub-four minute mile https://www.rnz.co.nz/news/sport/545352/watch-teen-runner-sam-ruthe-breaks-record-sub-four-minute-mile",
+      "author": "mattsau",
+      "created_utc": 1742370071.0,
+      "score": 594,
+      "num_comments": 89,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

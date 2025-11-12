@@ -1,0 +1,31 @@
+{
+  "id": "twin_wsj",
+  "username": "wsj",
+  "activity_count": 1,
+  "interests": [
+    "club",
+    "wanted",
+    "this",
+    "first",
+    "celebrities"
+  ],
+  "post_times": [
+    1746109158.0
+  ],
+  "history_sample": [
+    {
+      "id": "1kc9w0h",
+      "title": "First Celebrities Wanted Us To Read. Now They Want Us to Run. (WSJ free link)",
+      "selftext": "Hi running community! \n\nThis is Laura at The Wall Street Journal, also an avid runner. I wanted to share this fun story about celebrities launching run clubs. \n\nWould you join a celebrity run club? Who would you want to run with most?\n\n>Diplo last year held two 5K runs followed by live shows\u2014the biggest he\u2019s ever headlined in either city. His Run Club attracts a range of runners and non-runners, from 14-year-old kids in Shrek outfits to women in \u201cGrandmas for Diplo\u201d t-shirts. \n\n>Rapper Jelly Roll this month launched Jelly Roll\u2019s Losers Run Club. He said he started the Losers Run Club to motivate people to take the first step. \u201cWe use the word \u2018run\u2019 loose here.\u201d\n\n>Blink-182 drummer Travis Barker in 2024 began Run Travis Run. \u201cI\u2019m not trying to go out there and just smoke people,\u201d Barker said. \u201cI love running, and I wanted to motivate people to get out and walk or run just like I did.\u201d\n\nSkip the paywall to read the full story free here: [https://www.wsj.com/lifestyle/celebrity-run-book-clubs-travis-barker-diplo-jelly-roll-b0ba3c1f?st=p6BLvh&mod=wsjreddit](https://www.wsj.com/lifestyle/celebrity-run-book-clubs-travis-barker-diplo-jelly-roll-b0ba3c1f?st=p6BLvh&mod=wsjreddit)",
+      "author": "wsj",
+      "created_utc": 1746109158.0,
+      "score": 87,
+      "num_comments": 49,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

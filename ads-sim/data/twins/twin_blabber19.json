@@ -1,0 +1,32 @@
+{
+  "id": "twin_blabber19",
+  "username": "blabber19",
+  "activity_count": 1,
+  "interests": [
+    "shoe",
+    "reviews",
+    "that",
+    "them",
+    "best"
+  ],
+  "post_times": [
+    1748676848.0
+  ],
+  "history_sample": [
+    {
+      "id": "1kzreh3",
+      "title": "Best shoe reviews?",
+      "selftext": "Who\u2019s your go to reviewer for shoes! I\u2019ve always been doing to RunRepeat and their Cut in Half reviews. Im not a fan of those short influencer videos that just go on about the looks of the shoe. And them showing the pace that they run in with them on. Because everyone runs at different paces. \n",
+      "author": "blabber19",
+      "created_utc": 1748676848.0,
+      "score": 80,
+      "num_comments": 107,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

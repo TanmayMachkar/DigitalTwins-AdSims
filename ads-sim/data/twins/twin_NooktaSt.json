@@ -1,0 +1,32 @@
+{
+  "id": "twin_NooktaSt",
+  "username": "NooktaSt",
+  "activity_count": 1,
+  "interests": [
+    "city",
+    "something",
+    "have",
+    "great",
+    "best"
+  ],
+  "post_times": [
+    1742688991.0
+  ],
+  "history_sample": [
+    {
+      "id": "1jhmp8g",
+      "title": "Best 10ks in Europe?",
+      "selftext": "10k is my preferred distance. I am looking for something in a city centre that has a fun atmosphere, ideally a big crowd.\n\nI have done the Vancouver Sun Run a few times and it's great, about 45k and a great way to see the city. Do any European cities have similar. Might make hotels more expensive but I like the idea of the event being a big thing in the city vs something in a park outside the city.  \nNo issue if its on the same time as a half or marathon.",
+      "author": "NooktaSt",
+      "created_utc": 1742688991.0,
+      "score": 31,
+      "num_comments": 31,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "tiktok",
+    "instagram"
+  ]
+}

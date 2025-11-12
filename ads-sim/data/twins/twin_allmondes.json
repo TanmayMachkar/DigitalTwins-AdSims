@@ -1,0 +1,32 @@
+{
+  "id": "twin_allmondes",
+  "username": "allmondes",
+  "activity_count": 1,
+  "interests": [
+    "zone",
+    "this",
+    "that",
+    "intensity",
+    "exercise"
+  ],
+  "post_times": [
+    1755439616.0
+  ],
+  "history_sample": [
+    {
+      "id": "1msru1r",
+      "title": "Zone 2 not intense enough for optimal exercise benefits, new review says",
+      "selftext": "So I think we've all heard the idea that zone 2 (described as an easy intensity where you're able to hold a conversation) is the optimal intensity for most of your runs and the best way to build your aerobic base. Beginners should focus on this zone and they will get faster even by running slow. When you're more intermediate, you can start adding intensity. This was what I always heard when I started running more regularly this year. And I believed it to be true, so most of my runs have been at this zone 2 type intensity.\n\nWell, turns out that this idea is not supported by evidence. A new review of the literature suggests that focusing on zone 2 might not be intense enough to get all the benefits from exercise that you can get from higher intensities.\n\nThe review **looked specifically at mitochondrial capacity and fatty acid oxidative (FAO) capacity** and makes the following conclusion:\n\n* \"Evidence from acute studies demonstrates small and inconsistent activation of mitochondrial biogenic signaling following Zone 2 exercise. Further, the majority of the available evidence **argues against the ability of Zone 2 training to increase mitochondrial capacity** \\[my emphasis\\], a fact that refutes the current popular media narrative that Zone 2 training is optimal for mitochondrial adaptations.\"\n* \"Zone 2 does appear to improve FAO capacity in untrained populations; however, pooled analyses suggest that **higher exercise intensities may be favorable in untrained and potentially required in trained** \\[my emphasis\\] individuals.\"\n\nWhat does this mean? My takeaway is this: There is no reason to focus on zone 2. In order to get better at running in the most efficient way, you need to run the largest amount of time in the highest intensity you can without getting injured.\n\nI'm curious to hear your reactions to this paper. Does this change anything in how you approach your training?\n\nGood interview with one of the authors here: [https://youtu.be/QQnc6-z7AO8](https://youtu.be/QQnc6-z7AO8)\n\nLink to the paper (paywalled): [https://pubmed.ncbi.nlm.nih.gov/40560504/](https://pubmed.ncbi.nlm.nih.gov/40560504/)\n\nPaper downloadable here: [https://waltersport.com/investigaciones/much-ado-about-zone-2-a-narrative-review-assessing-the-efficacy-of-zone-2-training-for-improving-mitochondrial-capacity-and-cardiorespiratory-fitness-in-the-general-population/](https://waltersport.com/investigaciones/much-ado-about-zone-2-a-narrative-review-assessing-the-efficacy-of-zone-2-training-for-improving-mitochondrial-capacity-and-cardiorespiratory-fitness-in-the-general-population/)",
+      "author": "allmondes",
+      "created_utc": 1755439616.0,
+      "score": 899,
+      "num_comments": 628,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

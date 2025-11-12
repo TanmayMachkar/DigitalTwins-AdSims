@@ -1,0 +1,32 @@
+{
+  "id": "twin_ok_pineapple_ok",
+  "username": "ok_pineapple_ok",
+  "activity_count": 1,
+  "interests": [
+    "that",
+    "hanging",
+    "your",
+    "wall",
+    "running"
+  ],
+  "post_times": [
+    1746146514.0
+  ],
+  "history_sample": [
+    {
+      "id": "1kcoazv",
+      "title": "What\u2019s hanging on your wall?",
+      "selftext": "Curious\u2014what's hanging on your wall that's related to running?\n\nI'm looking for suggestions - not the usual \u201cnever give up\u201d poster with someone mid-stride on a beach at sunrise. I mean the other kind of stuff. The things that remind you what running really is: joyless and joyful, pointless and essential.\n\nMaybe it's that photo of Jasmin Paris collapsed after Barkley. Or Emil Zatopek\u2019s quote: \u201cToday we die a little.\u201d Maybe something even more abstract\u2014something that speaks to how we run and run and still begin each week at zero, how the miles fade and nothing really sticks, except the doing.\n\nI\u2019m looking for stuff that leans into the existential weight of the sport. Memento Mori. Carpe Diem. The run is everything. The run is nothing. The only run that matters is the one you're in. That kind of thing.\n\nThank you!",
+      "author": "ok_pineapple_ok",
+      "created_utc": 1746146514.0,
+      "score": 55,
+      "num_comments": 88,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

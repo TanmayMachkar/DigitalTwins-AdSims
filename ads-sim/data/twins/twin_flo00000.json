@@ -1,0 +1,32 @@
+{
+  "id": "twin_flo00000",
+  "username": "flo00000",
+  "activity_count": 1,
+  "interests": [
+    "zone",
+    "beyond",
+    "running",
+    "your",
+    "training:"
+  ],
+  "post_times": [
+    1744282057.0
+  ],
+  "history_sample": [
+    {
+      "id": "1jvux5c",
+      "title": "Zone 2 Training: Benefits Beyond Running?",
+      "selftext": "For those of you who\u2019ve been doing Zone 2 training consistently, have you noticed any improvements beyond your running performance?\n\nI\u2019m especially curious about things like energy levels, sleep quality, recovery, mental clarity, resilience, or anything else that\u2019s changed for the better. And how long it took for you to notice. \n\nWould love to hear your personal experiences!",
+      "author": "flo00000",
+      "created_utc": 1744282057.0,
+      "score": 110,
+      "num_comments": 97,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "twin_Mario_Sh",
+  "username": "Mario_Sh",
+  "activity_count": 1,
+  "interests": [
+    "plans",
+    "like",
+    "other",
+    "apps",
+    "i've"
+  ],
+  "post_times": [
+    1757854575.0
+  ],
+  "history_sample": [
+    {
+      "id": "1ngqm5b",
+      "title": "MapMyRun Training Plans vs Other Apps?",
+      "selftext": "I've used MMR free for ages but never did the plans until a few weeks ago. I've enjoyed the plans and feel good about the runs I'm going on but I feel like the plans are lacking in depth or much in the way of stats. It seems like other apps, like Runna, are much more adaptive to you and stats-heavy.\n\nNonetheless, really my goal is to build endurance, strength and speed over distance. I just want to be confident I'm doing the right things and running the right speeds/types of runs day in and day out.\n\nWould you suggest I stay with MMR (which is about 1/3 of the cost of Runna) or switch to something else?",
+      "author": "Mario_Sh",
+      "created_utc": 1757854575.0,
+      "score": 13,
+      "num_comments": 13,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "tiktok",
+    "instagram"
+  ]
+}

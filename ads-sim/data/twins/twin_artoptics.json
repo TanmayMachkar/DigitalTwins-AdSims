@@ -1,0 +1,32 @@
+{
+  "id": "twin_artoptics",
+  "username": "artoptics",
+  "activity_count": 1,
+  "interests": [
+    "days",
+    "long",
+    "leading",
+    "eating",
+    "before"
+  ],
+  "post_times": [
+    1750667605.0
+  ],
+  "history_sample": [
+    {
+      "id": "1libbuw",
+      "title": "Nutrition in the days leading up to a long run/marathon",
+      "selftext": "Most of the posts I see about eating before a long run relate to the morning of, or the night before your run/race. I\u2019m wondering whether people have a regular diet in the days leading up to your long run? For example, do you try to eat more carbs for a few days or just eating as normal ?",
+      "author": "artoptics",
+      "created_utc": 1750667605.0,
+      "score": 70,
+      "num_comments": 38,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "instagram",
+    "youtube"
+  ]
+}

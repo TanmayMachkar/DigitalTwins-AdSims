@@ -1,0 +1,32 @@
+{
+  "id": "twin_TheSplash-Down_Tiki",
+  "username": "TheSplash-Down_Tiki",
+  "activity_count": 1,
+  "interests": [
+    "kipchoge",
+    "coming",
+    "sydney",
+    "well",
+    "done"
+  ],
+  "post_times": [
+    1741906563.0
+  ],
+  "history_sample": [
+    {
+      "id": "1japa66",
+      "title": "Kipchoge is coming to Sydney!",
+      "selftext": "Well done to the organisers of the newest major!! Kipchoge coming to Sydney.  I\u2019ve got my bib and I\u2019m excited.\n\nhttps://www.nine.com.au/sport/athletics/sydney-marathon-2025-news-eliud-kipchoge-running-best-time-country-20250313-p5ljhu.html",
+      "author": "TheSplash-Down_Tiki",
+      "created_utc": 1741906563.0,
+      "score": 47,
+      "num_comments": 2,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

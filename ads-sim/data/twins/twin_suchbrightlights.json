@@ -1,0 +1,43 @@
+{
+  "id": "twin_suchbrightlights",
+  "username": "suchbrightlights",
+  "activity_count": 2,
+  "interests": [
+    "questions",
+    "your",
+    "stupid",
+    "question",
+    "good"
+  ],
+  "post_times": [
+    1757937840.0,
+    1744719937.0
+  ],
+  "history_sample": [
+    {
+      "id": "1nhjy5k",
+      "title": "Miscellaneous Monday Chit Chat",
+      "selftext": "What\u2019s good this week? What were you up to over the weekend? What even were those World Champs marathon finishes?! Sit on down and chat about it. ",
+      "author": "suchbrightlights",
+      "created_utc": 1757937840.0,
+      "score": 20,
+      "num_comments": 49,
+      "subreddit": "running"
+    },
+    {
+      "id": "1jzqkga",
+      "title": "Super Moronic Monday - Your Weekly Tuesday Stupid Questions Thread",
+      "selftext": "Back once again for everything you wanted to know about running but were afraid to ask.\n\nRules of the Road:\n\nThis is inspired by eric\\_twinge's fine work in [r/fitness](https://www.reddit.com/r/fitness/).\n\nUpvote either good or stupid questions. Sort questions by new so that they get some love.\n\nTo the more experienced runnitors, if something is a good question or answer, add it to the FAQ.\n\nPost your question -- stupid or otherwise -- here to get an answer -- stupid or otherwise. Anyone can post a question and the community as a whole is invited and encouraged to provide an answer. Many questions get submitted late each week that don't get a lot of action, so if your question didn't get answered, feel free to post it again.\n\nAs always, be sure to read the FAQ first. Also, there's a handy-dandy search bar to your right, and if you didn't know, you can also use Google to search runnit by using the limiter \"site:reddit.com [r/running](https://www.reddit.com/r/running/)\".\n\nBe sure to check back often as questions get posted throughout the day. Sort comments by \"new\" to be sure the newer questions get some love as well.\n\n\\[Posting on behalf of u/30000lbs_of_bananas who is busy testing the recovery benefits of pastries vs. burritos, for science.\\]",
+      "author": "suchbrightlights",
+      "created_utc": 1744719937.0,
+      "score": 9,
+      "num_comments": 85,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.98,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

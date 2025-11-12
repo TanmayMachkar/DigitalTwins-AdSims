@@ -1,0 +1,54 @@
+{
+  "id": "twin_Knightbear49",
+  "username": "Knightbear49",
+  "activity_count": 3,
+  "interests": [
+    "that",
+    "strava",
+    "users",
+    "runna",
+    "will"
+  ],
+  "post_times": [
+    1747833946.0,
+    1744900309.0,
+    1743074395.0
+  ],
+  "history_sample": [
+    {
+      "id": "1krxs3e",
+      "title": "[TheVerge] Strava updates its AI route planning and cheater detection\ufeff. 4.45 million undeserving entries have already been removed from leaderboards.",
+      "selftext": "\n>Strava is making it easier to plan workouts and keep activity leaderboard rankings fair. The updates rolling out over the coming weeks focus on helping users optimize their workout routes to compete against other users and their own personal bests, building on some of the\u00a0[existing AI features that Strava announced last year](https://www.theverge.com/2024/5/16/24158290/strava-ai-dark-mode-night-heat-maps-family-subscription).\n\n>Anyone paying for a Strava subscription (starting at $11.99 monthly) can now access a new AI-powered routes experience under the Maps tab that should provide more intuitive suggestions based on popular routes enjoyed by other Strava users. Users can generate community-backed routes from custom starting points or their current location, pulling data from Strava\u2019s heatmaps feature.\n\n>Other route-related updates will be rolled out to the Strava mobile app in the coming months, including changes to the tappable points of interest (POI) feature that currently enables subscribers to instantly generate routes to caf\u00e9s, restrooms, viewpoints, and other locations. Starting in June, POI\u2019s will also display elevation, distance, and estimated arrival time information, and allow users to upload photos of the location. Point-to-point routing will also launch in July, which uses heatmaps and machine learning to deliver \u201cthe most efficient, activity-specific route from A to B,\u201d according to Strava.\n\n>Strava is also doubling the number of live segments, which allow users to view real-time performance data and achievements in sections of their route, and introducing additional data screens for subscribers.\n\n>Finally, Strava says it\u2019s \u201ccontinuing to advance\u201d the AI-powered Leaderboard Integrity feature it launched to weed out cheaters on cycling and running paths. The company says that 4.45 million activity logs have been removed so far that carried the wrong sport type, or were recorded in vehicles \u2014 which is an easy way to fabricate scores now that e-bikes can make anyone the king of a mountain.\n\n\n\n[https://www.theverge.com/news/671452/strava-ai-routes-leaderboard-update](https://www.theverge.com/news/671452/strava-ai-routes-leaderboard-update)",
+      "author": "Knightbear49",
+      "created_utc": 1747833946.0,
+      "score": 512,
+      "num_comments": 73,
+      "subreddit": "running"
+    },
+    {
+      "id": "1k1e9da",
+      "title": "Strava acquires massively popular Runna app",
+      "selftext": "> Meanwhile, Runna burst onto the scene in 2021 and has quickly climbed the app charts for folks in need of 5K, 10K, or marathon training plans. Since launch, it\u2019s secured an additional $6.3 million in funding for its AI-powered run coaching, with users spanning 180 countries. In 2024, Runna also tripled the size of its team and is currently hiring roughly 50 roles to expand the product and tech\n\n> \u201cFor a while, Strava had created static, document-based plans for runners but the reality is those were used very, very infrequently,\u201d Strava CEO Michael Martin says. According to the company\u2019s research, the lack of guidance was a pain point for longtime users and newcomers to the app. \u201cWe came to realize that, as it related to runners, that guidance was training plans.\u201d\n\n> \u201cEffectively, nothing changes for the user out of the gate. Our plan with this acquisition is to invest further into growing the Runna app, invest in the Runna team, and then continue to operate them as independent but in an integrated fashion,\u201d Martin says, adding that once the deal is fully wrapped, users can expect to start seeing changes in the coming weeks and months.\n\n> \u201cThe ambition is to do things where it makes sense,\u201d adds Runna cofounder and CEO Dom Maskell, who notes a more seamless integration between the two apps would help create a smoother user experience. \u201cIt\u2019s like, the user comes on and they want to see what run they\u2019re doing today. That sits in Runna, and then they want to go find a route for that run \u2014 that sits in Strava. Then, if they want live coaching, that\u2019s on Runna and then Strava frankly has better tech than us for recording on your phone. At the moment, the user kind of gets passed off quite a lot of times.\u201d\n\n> One thing that hasn\u2019t been decided yet is how subscriptions will work. Strava has a free tier but charges $79.99 a year for premium features, while Runna costs $119.99 annually. While Runna currently uses Strava\u2019s third-party API, until the details are hammered out, users will still need to subscribe to both services to get the full range of features.\n\n> \u201cWe\u2019ve got quite an active Reddit community, and I know there\u2019s probably quite a large overlap between them and the strong voices in the comment section,\u201d says Maskell. \u201cWe try to be very transparent and open with them, and I genuinely believe this is an amazing thing for all users. I\u2019m happy to tell everyone about it and sit on Reddit for the whole day to answer everyone\u2019s questions.\u201d\n\nhttps://www.theverge.com/tech/648075/strava-runna-acquisition-running-fitness-tech",
+      "author": "Knightbear49",
+      "created_utc": 1744900309.0,
+      "score": 619,
+      "num_comments": 166,
+      "subreddit": "running"
+    },
+    {
+      "id": "1jl1k38",
+      "title": "Garmin adds AI and a subscription tier to its app",
+      "selftext": "> It was only a matter of time. Garmin announced today it\u2019s launching Garmin Connect Plus, a premium tier to its app that adds AI-powered insights and a few other expanded features. Existing and new Garmin users will be able to opt in to a free 30-day trial and then choose between a $6.99 monthly or $69.99 annual subscription. All existing health data and features, however, will remain free.\n\n> \u201cDeveloping a premium tier enables us to extend our investment in the Garmin Connect platform, both in terms of features that carry additional cost to provide and also in scaling out our engineering teams to build and maintain these features,\u201d says Garmin spokesperson Natalie Miller.\n\nhttps://www.theverge.com/news/636211/garmin-connect-plus-subscription-wearables",
+      "author": "Knightbear49",
+      "created_utc": 1743074395.0,
+      "score": 407,
+      "num_comments": 261,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.97,
+  "channels": [
+    "tiktok",
+    "instagram"
+  ]
+}

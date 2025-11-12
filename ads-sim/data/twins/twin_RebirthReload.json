@@ -1,0 +1,42 @@
+{
+  "id": "twin_RebirthReload",
+  "username": "RebirthReload",
+  "activity_count": 2,
+  "interests": [
+    "london",
+    "marathon",
+    "2026",
+    "link:",
+    "ballot"
+  ],
+  "post_times": [
+    1750339045.0,
+    1746385421.0
+  ],
+  "history_sample": [
+    {
+      "id": "1lfalf8",
+      "title": "London Marathon 2026 ballot results have now been released",
+      "selftext": "Link: https://www.londonworld.com/whats-on/london-marathon-2026-ballot-results-released-5185174\n\nI look forward to the annual rejection \ud83d\ude02",
+      "author": "RebirthReload",
+      "created_utc": 1750339045.0,
+      "score": 141,
+      "num_comments": 274,
+      "subreddit": "running"
+    },
+    {
+      "id": "1kerkdl",
+      "title": "London Marathon breaks world record with more than 1.1 million entries for 2026",
+      "selftext": "Yeah, we\u2019re absolutely cooked.\nMight as well apply for the moon landing next, same odds.\n\nLink: https://www.standard.co.uk/news/uk/london-b1225758.html",
+      "author": "RebirthReload",
+      "created_utc": 1746385421.0,
+      "score": 1207,
+      "num_comments": 198,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.98,
+  "channels": [
+    "youtube"
+  ]
+}

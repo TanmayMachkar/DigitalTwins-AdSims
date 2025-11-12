@@ -1,0 +1,31 @@
+{
+  "id": "twin_fandorgaming",
+  "username": "fandorgaming",
+  "activity_count": 1,
+  "interests": [
+    "running",
+    "make",
+    "what",
+    "arousal",
+    "apparently"
+  ],
+  "post_times": [
+    1742586794.0
+  ],
+  "history_sample": [
+    {
+      "id": "1jgpuja",
+      "title": "Apparently running doesn't make you less angry? What do you feel about it yourself? Does running make you calmer in every aspect of your life, do you do yoga or meditation?",
+      "selftext": "\"To reduce anger, it is better to engage in activities that decrease arousal levels,\" Bushman\u00a0[said](https://news.osu.edu/breathe-dont-vent-turning-down-the-heat-is-key-to-managing-anger/). \"Despite what popular wisdom may suggest, even going for a run is not an effective strategy because it increases arousal levels and ends up being counterproductive.\"  \nSource: [https://www.sciencealert.com/venting-doesnt-reduce-anger-but-something-else-does-study-reveals](https://www.sciencealert.com/venting-doesnt-reduce-anger-but-something-else-does-study-reveals) (15 March 2025)",
+      "author": "fandorgaming",
+      "created_utc": 1742586794.0,
+      "score": 216,
+      "num_comments": 219,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

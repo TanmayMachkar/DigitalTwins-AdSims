@@ -1,0 +1,32 @@
+{
+  "id": "twin_TiredButRestless",
+  "username": "TiredButRestless",
+  "activity_count": 1,
+  "interests": [
+    "running",
+    "shoes",
+    "that",
+    "\"normal\"",
+    "just"
+  ],
+  "post_times": [
+    1746308543.0
+  ],
+  "history_sample": [
+    {
+      "id": "1ke3yky",
+      "title": "Who's making \"normal\" running shoes?",
+      "selftext": "I just bought some new running shoes at a local running store.  I've noticed the trend in the last couple year and ALL the shoes displayed at the store  had these super thick soles now.  Maybe this is what's normal now, but I call it Hokization.  Where did the \"normal\" thickness go?  Think Brooks adrenaline or Mizuno Wave Rider just 3 years ago.  \nIt seems like you either have the option to go minimalist or moon boot.  I don't mind thicker soles while trail running, but for road, I've found a decrease in durability and a compression of the foam over a quicker period of time that actually negatively affects my pronation.\nI know a lot of people like these type of shoes, but I'm curious if anyone else shares the frustration or knows of any companies that still have at least one model that is it minimalist or maximalist.",
+      "author": "TiredButRestless",
+      "created_utc": 1746308543.0,
+      "score": 406,
+      "num_comments": 254,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "instagram",
+    "youtube"
+  ]
+}

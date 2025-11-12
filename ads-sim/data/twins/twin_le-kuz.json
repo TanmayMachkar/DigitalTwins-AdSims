@@ -1,0 +1,31 @@
+{
+  "id": "twin_le-kuz",
+  "username": "le-kuz",
+  "activity_count": 1,
+  "interests": [
+    "running",
+    "running-abc's",
+    "drills",
+    "have",
+    "mentioned"
+  ],
+  "post_times": [
+    1758561719.0
+  ],
+  "history_sample": [
+    {
+      "id": "1nnsnky",
+      "title": "App for Running-ABC's?",
+      "selftext": "As mentioned in the title, I\u2019m wondering if there\u2019s an app that includes running drills (Running-ABC's) and maybe some other running exercises. I\u2019m thinking of something like apps such as Alpha Progression \u2013 basically a workout planner focused on running technique.\n\nI want to start adding running drills as a weekly part of my training, but I find it a bit annoying to have to look them up online every time \u2014 an app would just be way more convenient.\n\nDo you have any tips on how to get started with this?",
+      "author": "le-kuz",
+      "created_utc": 1758561719.0,
+      "score": 5,
+      "num_comments": 4,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

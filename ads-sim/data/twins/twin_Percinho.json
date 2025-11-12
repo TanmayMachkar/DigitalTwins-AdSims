@@ -1,0 +1,31 @@
+{
+  "id": "twin_Percinho",
+  "username": "Percinho",
+  "activity_count": 1,
+  "interests": [
+    "those",
+    "2025",
+    "barkley",
+    "marathons",
+    "begun"
+  ],
+  "post_times": [
+    1742316736.0
+  ],
+  "history_sample": [
+    {
+      "id": "1je9nan",
+      "title": "The 2025 Barkley Marathons has begun",
+      "selftext": "Laz lit his cigarette at 11:37 local time. Keith Dunn is now on Bluesky for those who want updates:\n\nhttps://bsky.app/profile/keithdunn.bsky.social\n\nFor those who use threads, Amelia Boone is reposting his content there, with permission:\n\nhttps://www.threads.net/@arboone11\n\nPlease drop any other good information sources in the comments!\n\nUpdate: looks like the weather is due to get steadily worse as the week goes on, so the course could have its revenge this year:\n\nhttps://run247.com/running-news/ultramarathon-news/barkley-marathons-2025-weather-forecast\n\nEdit: thanks to u/InclinedAbstainer for the link to the unofficial tracking spreadsheet:\n\nhttps://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vS7bFn8RH5Na4vVxNijCsFCiHeYqRksDi5D9ddC9Fz4yK7nOQhEg8HwG78lz-PFVB2EkFn4QlJKEXMV/pubhtml?pli=1",
+      "author": "Percinho",
+      "created_utc": 1742316736.0,
+      "score": 1469,
+      "num_comments": 99,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

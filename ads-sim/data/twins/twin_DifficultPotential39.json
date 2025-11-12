@@ -1,0 +1,32 @@
+{
+  "id": "twin_DifficultPotential39",
+  "username": "DifficultPotential39",
+  "activity_count": 1,
+  "interests": [
+    "that",
+    "doing",
+    "this",
+    "with",
+    "i've"
+  ],
+  "post_times": [
+    1747926235.0
+  ],
+  "history_sample": [
+    {
+      "id": "1ksszjb",
+      "title": "William Goodge and the HR Controversy",
+      "selftext": "I'm a bit late to the party here, but having just read [this article](https://www.abc.net.au/news/2025-05-21/why-has-william-goodge-s-trans-australia-run-turned-toxic/105313388) setting out the controversy around HR - **I am not at all convinced that there is compelling evidence of fraud.**\n\n**Allegation:** Goodge's low HR readings indicate he didn't actually run over some of the distances he covered during his record breaking Trans-Australia crossing (3,800km in 35 days averaging 110km/day). \n\n**Qualification(?):** I am a former semi-pro (semi-amateur?) cyclist, later cycling coach with riders anywhere from novices to national representation at world championship events, so I've spent a lot of time looking at my own and others' HR data. I've switched to running in the last 3 years, 3:02 Marathon, 1:26 1/2M, 35:58 10km.\n\n**Firstly:** He doesn\u2019t use a chest strap for HR so I don\u2019t think his HR readings are at all accurate in the first place. I know my wrist sensor is unreliable which is why I generally use a chest strap instead. My wrist sensor often continues to show an HR reading for a short while after I\u2019ve taken it off, doesn\u2019t keep up when there are sudden spikes (ie if I\u2019m doing intervals it often lags at a lower HR), and seems to get \u2018stuck\u2019 at either very high or very low HRs for periods of time. Why exactly he wouldn\u2019t just use a strap to put this to bed is curious, although: a) it\u2019s personal preference in that a lot of people feel chest straps are uncomfortable; and b) I\u2019m not sure it would change much (see below).\n\n**Secondly,** HR is highly variable person to person. When I\u2019m fatigued my HR gets seriously depressed, often unable to get far over 150bpm even in extreme effort. When I was racing full time, doing 4 x 110+km events per week in the Belgian/Dutch racing season i'd be sprinting all out and look down to see \\~145bpm. That\u2019s a fraction of the kind of fatigue he\u2019d be dealing with and he\u2019s doing an endurance event with no need for spikes in effort. I've also had coaching clients who'd ride Z2/Z3 (based on power meters, not HR zones) at 170-180bpm, and some who did the same in 135-150bpm. As regards these depressions in HR tending to occur later in the day, it's very possible the is the result of culmination of fatigue on the heart, which is a muscle and subject to the same stresses you might feel in your calves or quads towards the end of a half marathon.\n\n**Thirdly,** he\u2019s running really *really* slow. Go out and TRY to run in the high 7min/km range and you\u2019ll find you are basically doing a jaunty walk. Making comparisons to Brockman's HR values in this regard is to present red herrings - **Brockmann** 5:42/km (102km) v **Goodge** 7:55/km (110km), **Brockman** 6:28/km (106km) v **Goodge** 7:47/km (113km). Those speeds are WORLDS apart, especially the first example where he\u2019s running 39% slower than Nedd. Consider that iff they had both set out to run 110km that day, Brockman would have been home and hosed almost 4 hours before Goodge. In the world of HR variability with the added aspect of fatigue, it\u2019s not at all linear. 39% slower at a Z1/Z2 pace could be the difference of 60bpm, depending on the person.\n\n**Fianlly,** as for the GPS blips where he appears to be going 60-80kph or doing 3:30/km at times, I am sure we have all experienced this - it's extremely common for tiny GPS watch devices.\n\nNo smoke without fire and all that, but from what I've seen put forward to substantiate the claims of fraud, I'm not convinced.",
+      "author": "DifficultPotential39",
+      "created_utc": 1747926235.0,
+      "score": 108,
+      "num_comments": 85,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "twin_mo-mx",
+  "username": "mo-mx",
+  "activity_count": 1,
+  "interests": [
+    "that",
+    "running",
+    "study",
+    "than",
+    "injuries"
+  ],
+  "post_times": [
+    1752488389.0
+  ],
+  "history_sample": [
+    {
+      "id": "1lzipim",
+      "title": "New study shows accumulated distance (10% rule) less important than single run impact",
+      "selftext": "I just heard an interview with the people behind this study, the Garmin Runsafe study (link below), and they say that we should worry much more about the impact of the single run than the accumulated runs over time (the 10 percent rule etc) when it comes to injury.\n\n\"The study suggests that overuse injuries don\u2019t develop over time, as previously believed, explains Rasmus \u00d8stergaard Nielsen, associate professor and senior researcher at the Department of Public Health at Aarhus University and one of the researchers behind the study.\n\n\u201cOur research shows that overuse injuries occur much more frequently during a single training session when the runner runs too far compared to what they are used to,\u201d he says.\n\nSo even though some running programs suggest increasing your distance by 10 or 20 percent on your next run, according to the new study, that's far too much, says Rasmus \u00d8stergaard Nielsen.\n\n\u201cIf we want to stay somewhat safe when increasing our distance, a five percent progression is more sensible. If you're used to running five kilometers, that means you can add just 250 meters on your next run,\u201d he says.\n\nThis means that if, for example, you want to train to run 10 kilometers, you\u2019ll need to set aside a longer period than some running programs recommend.\n\nAdditionally, there are many other factors that can influence your risk of injury. According to Rasmus \u00d8stergaard Nielsen, the study\u2019s findings likely apply to other changes in your running routine as well.\n\n\u201cThat could be running much faster than you\u2019re used to, running in a new pair of shoes where the load is different, or suddenly running a lot on sand when you're used to running on asphalt.\u201d\n\nThere has previously, including in the research community, been a narrative that overuse injuries develop gradually over time, but that cannot be documented, according to Rasmus \u00d8stergaard Nielsen.\n\n\u201cWe\u2019ve been pulling our hair out for 20 years trying to figure out why we weren\u2019t finding anything. We looked into the individual training sessions, and that\u2019s why we believe our research project has such great potential\u2014it changes the narrative of how injuries occur.\u201d\n\n\u201cWe should view injuries more as something that happens during a single training session, rather than something that develops gradually over time.\u201d\n\nThe study is the largest study of running injuries ever conducted and is based on data from more than 5,200 participants.\n\n\nMy thought is that some of the metrics in our running watches needs to be looked at. \n\nThe study is here: https://www.ucviden.dk/da/publications/a-paradigm-shift-in-understanding-overuse-running-related-injurie\n\nThe quoted article is here:\nhttps://www.dr.dk/nyheder/indland/nyt-studie-af-loebeskader-omskriver-historien-din-skade-kan-komme-efter-kun-en",
+      "author": "mo-mx",
+      "created_utc": 1752488389.0,
+      "score": 886,
+      "num_comments": 169,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

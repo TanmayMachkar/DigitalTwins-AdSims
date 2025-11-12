@@ -1,0 +1,31 @@
+{
+  "id": "twin_TheGayBob",
+  "username": "TheGayBob",
+  "activity_count": 1,
+  "interests": [
+    "good",
+    "running",
+    "accounts",
+    "follow",
+    "just"
+  ],
+  "post_times": [
+    1751665862.0
+  ],
+  "history_sample": [
+    {
+      "id": "1lrucid",
+      "title": "Any good running accounts to follow on IG?",
+      "selftext": "Just getting into running and wondering if y\u2019all follow any good accounts on Instagram for motivation or tips. Could be runners you like, coaches, training pages, whatever. I\u2019m trying to build a feed that keeps me inspired and actually helps me learn a thing or two. Appreciate any recs.",
+      "author": "TheGayBob",
+      "created_utc": 1751665862.0,
+      "score": 37,
+      "num_comments": 74,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

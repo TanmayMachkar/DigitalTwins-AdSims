@@ -1,0 +1,31 @@
+{
+  "id": "twin_SouthAussie94",
+  "username": "SouthAussie94",
+  "activity_count": 1,
+  "interests": [
+    "trail",
+    "running",
+    "course",
+    "mapping",
+    "runner"
+  ],
+  "post_times": [
+    1748423760.0
+  ],
+  "history_sample": [
+    {
+      "id": "1kxckjw",
+      "title": "Researcher pushing for international standard for mapping trail running events in bid for Olympics inclusion",
+      "selftext": "> An avid trail runner is mapping every twist and turn of the trails around Brisbane's Mount Coot-tha in an effort to bring much-needed precision to the growing sport.\n\n> University of Queensland research scientist Raimundo Sanchez has covered the trails hundreds of times with a professional GPS.\n\n> Unlike a regular marathon or running event that can be measured using a calibrated bicycle, accurately measuring trail runs is an endeavour in science and technology.\n\n> Full Article: https://www.abc.net.au/news/2025-05-28/trail-running-international-standard-mapping-olympics-push/105308848\n\nI'm a trail runner and a surveyor so I understand the difficulties of measuring a trail running course accurately. \n\nIt makes me wonder how they measure and standardise the course for Mountain Biking? I would have thought the Mountain Biking course could also be suitable for Trail Running?\n\nInteresting!",
+      "author": "SouthAussie94",
+      "created_utc": 1748423760.0,
+      "score": 166,
+      "num_comments": 45,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

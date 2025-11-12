@@ -1,0 +1,32 @@
+{
+  "id": "twin_No_Armadillo4172",
+  "username": "No_Armadillo4172",
+  "activity_count": 1,
+  "interests": [
+    "leggings",
+    "pockets",
+    "running",
+    "lightweight",
+    "summer"
+  ],
+  "post_times": [
+    1743980977.0
+  ],
+  "history_sample": [
+    {
+      "id": "1jt74op",
+      "title": "UPF, lightweight leggings w pockets for summer running?",
+      "selftext": "Any recommendations for leggings w sun protection and pockets that stay cool for running in hot humid weather? ",
+      "author": "No_Armadillo4172",
+      "created_utc": 1743980977.0,
+      "score": 8,
+      "num_comments": 6,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

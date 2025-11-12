@@ -1,0 +1,32 @@
+{
+  "id": "twin_Bluegunder",
+  "username": "Bluegunder",
+  "activity_count": 1,
+  "interests": [
+    "running",
+    "japan",
+    "there",
+    "headed",
+    "days"
+  ],
+  "post_times": [
+    1749830757.0
+  ],
+  "history_sample": [
+    {
+      "id": "1lajrs8",
+      "title": "Running in Japan",
+      "selftext": "Headed to Japan in a few days and I'm winding is there is any etiquette about running there. I'm male and white, if that makes any difference. Do I run on a certain side of the sidewalk? Can I run without a shirt? I'm probably overthinking it, but any insight would be helpful!",
+      "author": "Bluegunder",
+      "created_utc": 1749830757.0,
+      "score": 394,
+      "num_comments": 306,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "instagram",
+    "youtube"
+  ]
+}

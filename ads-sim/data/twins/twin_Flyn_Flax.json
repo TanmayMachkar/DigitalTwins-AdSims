@@ -1,0 +1,32 @@
+{
+  "id": "twin_Flyn_Flax",
+  "username": "Flyn_Flax",
+  "activity_count": 1,
+  "interests": [
+    "each",
+    "foam",
+    "roller",
+    "massage",
+    "would"
+  ],
+  "post_times": [
+    1750859272.0
+  ],
+  "history_sample": [
+    {
+      "id": "1lk65f3",
+      "title": "Foam Roller or Massage Gun",
+      "selftext": "Would love to know the community's take on when they use each and if there are benefits and cons with each comapred to the other. Thank you. ",
+      "author": "Flyn_Flax",
+      "created_utc": 1750859272.0,
+      "score": 49,
+      "num_comments": 68,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}

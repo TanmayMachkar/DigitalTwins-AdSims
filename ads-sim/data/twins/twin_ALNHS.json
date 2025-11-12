@@ -1,0 +1,31 @@
+{
+  "id": "twin_ALNHS",
+  "username": "ALNHS",
+  "activity_count": 1,
+  "interests": [
+    "waterproof",
+    "jacket",
+    "good",
+    "running",
+    "i\u2019ve"
+  ],
+  "post_times": [
+    1745073282.0
+  ],
+  "history_sample": [
+    {
+      "id": "1k2xmvf",
+      "title": "Good waterproof running jacket",
+      "selftext": "Hi so I\u2019ve gotten through winter in Ireland this year without buying a jacket. However I\u2019ve increased my mileage to 100k ish a week so I can\u2019t avoid not having one. Looking for recommendations for a good quality waterproof running jacket don\u2019t mind spending money on it once it\u2019s pretty waterproof and will last. Thanks in advance for any recommendation\u2019s.",
+      "author": "ALNHS",
+      "created_utc": 1745073282.0,
+      "score": 64,
+      "num_comments": 77,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "youtube"
+  ]
+}

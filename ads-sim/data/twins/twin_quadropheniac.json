@@ -1,0 +1,32 @@
+{
+  "id": "twin_quadropheniac",
+  "username": "quadropheniac",
+  "activity_count": 1,
+  "interests": [
+    "cough",
+    "qualifying",
+    "times",
+    "marathons",
+    "with"
+  ],
+  "post_times": [
+    1750101001.0
+  ],
+  "history_sample": [
+    {
+      "id": "1ld1qqk",
+      "title": "BAA issues update on 2026 and 2027 Boston Marathon registration, including new time adjustments for downhill course qualifying times",
+      "selftext": "https://www.baa.org/2026-and-2027-registration-updates-boston-marathon-presented-bank-america\n\nA little bit of housekeeping but the big news is that for purposes of qualifying, BAA is adding 5 minutes to times on marathons with 1,500-2,999 feet of net elevation loss and 10 minutes to times on marathons with 3,000-5,999 feet of elevation loss, and not considering marathons with 6,000+ feet of elevation loss for the purposes of qualifying.\n\nNot the fanciest way of adjusting for easier courses but think it should be pretty effective in neutering the advantage that certain organizing companies (cough cough Revel cough cough) have been using for a while.\n\nWhat do you all think? Too aggressive, not aggressive enough? This has been a hobby horse of mine for a while and I'm happy to see Boston work to get rid of what amounted to a loophole.",
+      "author": "quadropheniac",
+      "created_utc": 1750101001.0,
+      "score": 255,
+      "num_comments": 38,
+      "subreddit": "running"
+    }
+  ],
+  "price_sensitivity": 0.99,
+  "channels": [
+    "twitter",
+    "reddit"
+  ]
+}
