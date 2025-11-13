@@ -5,7 +5,7 @@ from src.twin_builder import build_twin_profiles
 from src.rag_engine import create_vector_db
 from src.simulator import simulate_reaction
 
-POST_URL = "https://www.reddit.com/r/Pretend2010Internet/comments/1oe62zw/who_will_have_a_better_carrermessi_vs_ronaldo/"
+POST_URL = "https://www.reddit.com/r/animequestions/comments/1krk2jt/which_one_do_yall_prefer_naruto_or_one_piece/"
 OUTPUT_CSV = "simulation_results.csv"
 CSV_HEADER = ["username", "predicted_response", "post_url"]
 
@@ -16,6 +16,8 @@ print("Data fetching complete.")
 print("Building twin profiles...")
 build_twin_profiles(f"data/raw/{post_info['id']}_user_histories.json")
 print("Twin profiles built.")
+
+# quit()
 
 print("Creating vector database...")
 collection = create_vector_db("data/processed/")
