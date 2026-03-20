@@ -36,7 +36,7 @@ if st.button("Simulate Agent Reactions"):
             # response = requests.post("http://localhost:8000/simulate", data=payload)
             
             # Deployed
-            response = requests.post("https://digital-twins-ad-sims.vercel.app/simulate/", data=payload)
+            response = requests.post("https://digital-twins-ad-sims-git-main-tanmay-machkars-projects.vercel.app/simulate/", data=payload)
 
         if response.status_code == 200:
             results = response.json()
