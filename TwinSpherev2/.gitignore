@@ -1,0 +1,39 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.log
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Jupyter/Streamlit
+.ipynb_checkpoints/
+.streamlit/
+
+# VSCode/PyCharm
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Letta/Agent Files
+*.af
+logs/
+data/
+outputs/
+tmp/
+uploads/
