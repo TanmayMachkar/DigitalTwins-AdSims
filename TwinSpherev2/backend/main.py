@@ -20,6 +20,11 @@ client = Letta(
 )
 
 app = FastAPI()
+ 
+@app.get("/")
+def read_root():
+    return {"status": "backend is running", "api": "TwinSphere AI API"}
+
 
 # CORS setup for Streamlit UI
 app.add_middleware(
