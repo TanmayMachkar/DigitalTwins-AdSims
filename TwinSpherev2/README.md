@@ -142,7 +142,7 @@ Each agent will output:
 - Reasoning
 - Confidence score
 - Final public-facing message
-- Tags
+- Tag
 - Persona attribution
 Analytics shown:
 - Reaction distribution
