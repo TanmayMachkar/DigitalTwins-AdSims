@@ -15,7 +15,7 @@ load_dotenv()
 SHARED_BLOCK_LABEL = "public_reactions"
 
 client = Letta(
-    token=os.getenv("LETTA_API_KEY"),
+    api_key=os.getenv("LETTA_API_KEY"),
     base_url=os.getenv("LETTA_SERVER_URL", "https://api.letta.com")
 )
 
@@ -62,7 +62,7 @@ async def simulate_post_with_image(
         print(f"[DEBUG] Error listing agents: {e}")
         return {"error": f"Failed to list agents: {str(e)}"}
     
-    existing = client.blocks.list(label=SHARED_BLOCK_LABEL)
+    existing = list(client.blocks.list(label=SHARED_BLOCK_LABEL))
     shared_block_id = existing[0].id if existing else None
 
     # Run simulation
