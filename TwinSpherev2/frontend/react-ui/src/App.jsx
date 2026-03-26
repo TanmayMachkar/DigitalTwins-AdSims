@@ -27,7 +27,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
+  const apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
 
   const summary = useMemo(() => {
     const reactionCount = {};
