@@ -63,6 +63,7 @@ async def simulate_post_with_image(
         return {"error": f"Failed to list agents: {str(e)}"}
     
     existing = client.blocks.list(label=SHARED_BLOCK_LABEL)
+    shared_block_id = existing[0].id if existing else None
 
     # Run simulation
     try:
@@ -71,7 +72,7 @@ async def simulate_post_with_image(
             post_id=post_id,
             post_text=post_text,
             image_url=image_url,
-            shared_block_id=existing[0].id
+            shared_block_id=shared_block_id
         )
         return results
     except Exception as e:
