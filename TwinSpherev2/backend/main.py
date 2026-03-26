@@ -51,7 +51,10 @@ async def simulate_post_with_image(
     # Load all active agents
     try:
         url = os.getenv("LETTA_SERVER_URL", "https://api.letta.com")
-        agents = client.agents.list()
+        agents_page = client.agents.list()
+        # Handle SyncArrayPage by accessing .data
+        agents = agents_page.data if hasattr(agents_page, 'data') else agents_page
+
         print(f"[DEBUG] Connecting to: {url}")
         print(f"[DEBUG] Total agents found on Letta: {len(agents)}")
         
@@ -62,7 +65,9 @@ async def simulate_post_with_image(
         print(f"[DEBUG] Error listing agents: {e}")
         return {"error": f"Failed to list agents: {str(e)}"}
     
-    existing = list(client.blocks.list(label=SHARED_BLOCK_LABEL))
+    blocks_page = client.blocks.list(label=SHARED_BLOCK_LABEL)
+    blocks = blocks_page.data if hasattr(blocks_page, 'data') else blocks_page
+    existing = list(blocks)
     shared_block_id = existing[0].id if existing else None
 
     # Run simulation
