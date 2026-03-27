@@ -13,9 +13,9 @@ LETTA_AI_API_KEY = os.getenv("LETTA_API_KEY")
 if not LETTA_AI_API_KEY:
     raise ValueError("LETTA_API_KEY not found in .env file. Please create a .env file in the root directory.")
 
+# Local Letta doesn't need an API key if it's running in Docker without auth enabled.
 client = Letta(
-    api_key=LETTA_AI_API_KEY,
-    base_url=os.getenv("LETTA_SERVER_URL", "https://api.letta.com")
+    base_url=os.getenv("LETTA_SERVER_URL", "http://localhost:8282")
 )
 
 def encode_image_to_base64(image_path: str) -> dict:
@@ -88,6 +88,8 @@ async def run_simulation_agent(agent, ad_content: str, image_url: str = None):
     {{"reaction": "primary_action", "confidence": 0-100, "reasoning": "why you reacted this way", "tags": ["keyword1", "keyword2"], "final_message": "your social media post"}}
 
     The `reaction` value should be one of `like`, `dislike`, `comment`, `repost`, or `ignore`.
+    
+    CRITICAL: YOU MUST END YOUR RESPONSE WITH THE JSON BLOCK ON A NEW LINE.
 
     IMPORTANT: You MUST complete both phases. Do not stop after phase 1.
 
@@ -100,14 +102,10 @@ async def run_simulation_agent(agent, ad_content: str, image_url: str = None):
     try:
         # Prepare message content — v1.7.11 uses plain dicts, no MessageCreate class
         # Simple text-only content (string shorthand)
+        # Use a simple string for maximum compatibility with local models
         message_content = prompt
-        
-        # If there's an image, use the list-of-parts format
         if image_url and image_url.strip():
-            message_content = [
-                {"type": "text", "text": prompt},
-                {"type": "image_url", "image_url": {"url": image_url}}
-            ]
+            message_content += f"\n\nAttached Image URL: {image_url}"
 
         # Send the prompt to the agent using create(streaming=True)
         print(f"  - Sending prompt to {agent.name}...")

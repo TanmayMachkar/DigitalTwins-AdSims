@@ -9,7 +9,7 @@ from letta_client import Letta
 load_dotenv()
 
 LETTA_AI_API_KEY = os.getenv("LETTA_API_KEY")
-LETTA_SERVER_URL = os.getenv("LETTA_SERVER_URL", "https://api.letta.com")
+LETTA_SERVER_URL = os.getenv("LETTA_SERVER_URL", "http://localhost:8282")
 
 if not LETTA_AI_API_KEY:
     raise ValueError("LETTA_API_KEY not found in .env file. Please check your .env file in the root directory.")
@@ -20,8 +20,8 @@ SHARED_BLOCK_LABEL = "public_reactions"
 
 PERSONA_CSV = os.path.join(os.path.dirname(__file__), '..', 'Data', 'Persona.csv')
 AGENT_CONFIG = {
-    "model": "openai/gpt-4o-mini",
-    "embedding": "openai/text-embedding-3-small"
+    "model": "openai-proxy/openai/gpt-4o-mini",
+    "embedding": "letta/letta-free"
 }
 
 TOOL_NAME_MAPPING = {
@@ -45,7 +45,7 @@ CUSTOM_TOOL_SCHEMAS = [
                 "agent_id": {"type": "string", "description": "The ID of the agent performing the action."},
                 "ad_id": {"type": "string", "description": "The unique identifier of the ad being liked."},
                 "**kwargs": {
-                    "type": "any",
+                    "type": "string",
                     "description": "Any additional parameters that agent would like to pass and use for dynamic use."
                 }
             },
@@ -61,7 +61,7 @@ CUSTOM_TOOL_SCHEMAS = [
                 "agent_id": {"type": "string", "description": "The ID of the agent performing the action."},
                 "ad_id": {"type": "string", "description": "The unique identifier of the ad being disliked."},
                 "**kwargs": {
-                    "type": "any",
+                    "type": "string",
                     "description": "Any additional parameters that agent would like to pass and use for dynamic use."
                 }
             },
@@ -78,7 +78,7 @@ CUSTOM_TOOL_SCHEMAS = [
                 "ad_id": {"type": "string", "description": "The unique identifier of the ad for the comment."},
                 "comment_text": {"type": "string", "description": "The content of the comment."},
                 "**kwargs": {
-                    "type": "any",
+                    "type": "string",
                     "description": "Any additional parameters that agent would like to pass and use for dynamic use."
                 }
             },
@@ -95,7 +95,7 @@ CUSTOM_TOOL_SCHEMAS = [
                 "ad_id": {"type": "string", "description": "The unique identifier of the ad being reposted."},
                 "repost_reason": {"type": "string", "description": "The reason or commentary for the repost."},
                 "**kwargs": {
-                    "type": "any",
+                    "type": "string",
                     "description": "Any additional parameters that agent would like to pass and use for dynamic use."
                 }
             },
@@ -111,7 +111,7 @@ CUSTOM_TOOL_SCHEMAS = [
                 "agent_id": {"type": "string", "description": "The ID of the agent performing the action."},
                 "ad_id": {"type": "string", "description": "The unique identifier of the ad being ignored."},
                 "**kwargs": {
-                    "type": "any",
+                    "type": "string",
                     "description": "Any additional parameters that agent would like to pass and use for dynamic use."
                 }
             },
@@ -123,7 +123,7 @@ CUSTOM_TOOL_SCHEMAS = [
         "description": "Reads the shared knowledge base accessible to all agents.",
         "parameters": {"type": "object", "properties": {
             "**kwargs": {
-                    "type": "any",
+                    "type": "string",
                     "description": "Any additional parameters that agent would like to pass and use for dynamic use."
                 }
         }}
@@ -136,7 +136,7 @@ CUSTOM_TOOL_SCHEMAS = [
             "properties": {
                 "content": {"type": "string", "description": "The information to add to the shared knowledge base."},
                 "**kwargs": {
-                    "type": "any",
+                    "type": "string",
                     "description": "Any additional parameters that agent would like to pass and use for dynamic use."
                 }
             },
@@ -172,7 +172,8 @@ def register_tools():
 
 # --- Create Shared Memory ---
 def ensure_shared_block():
-    existing = list(CLIENT.blocks.list(label=SHARED_BLOCK_LABEL))
+    blocks_page = CLIENT.blocks.list(label=SHARED_BLOCK_LABEL)
+    existing = list(blocks_page)
     if existing:
         print(f"[=] Shared memory already exists: {existing[0].id}")
         return existing[0]
@@ -191,7 +192,9 @@ def create_agents_from_csv(csv_path: str, tools: list, shared_block_id: str):
                 print(f"[!] Skipping invalid row: {row}")
                 continue
         
-            existing = list(CLIENT.agents.list(name=name))
+            agents_page = CLIENT.agents.list()
+            agents_list = list(agents_page)
+            existing = [a for a in agents_list if a.name == name]
             if existing:
                 print(f"[=] Agent already exists: {name}")
                 continue
@@ -213,7 +216,8 @@ async def delete_all_agents():
     """Deletes all agents from the Letta server."""
     print("Deleting all existing agents...")
     try:
-        agents = CLIENT.agents.list()
+        agents_page = CLIENT.agents.list()
+        agents = list(agents_page)
         if not agents:
             print("  - No agents found to delete.")
             return

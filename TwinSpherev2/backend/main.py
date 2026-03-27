@@ -14,9 +14,9 @@ load_dotenv()
 
 SHARED_BLOCK_LABEL = "public_reactions"
 
+# Local Letta doesn't need an API key if it's running in Docker without auth enabled.
 client = Letta(
-    api_key=os.getenv("LETTA_API_KEY"),
-    base_url=os.getenv("LETTA_SERVER_URL", "https://api.letta.com")
+    base_url=os.getenv("LETTA_SERVER_URL", "http://localhost:8282")
 )
 
 app = FastAPI()
@@ -50,9 +50,10 @@ async def simulate_post_with_image(
 
     # Load all active agents
     try:
-        url = os.getenv("LETTA_SERVER_URL", "https://api.letta.com")
-        agents_response = client.agents.list()
-        agents = agents_response.data if hasattr(agents_response, 'data') else agents_response
+        url = os.getenv("LETTA_SERVER_URL", "http://localhost:8282")
+        agents_page = client.agents.list()
+        # Convert SyncArrayPage directly to a list to avoid len() errors
+        agents = list(agents_page)
         
         print(f"[DEBUG] Connecting to: {url}")
         print(f"[DEBUG] Total agents found on Letta: {len(agents)}")
@@ -64,9 +65,9 @@ async def simulate_post_with_image(
         print(f"[DEBUG] Error listing agents: {e}")
         return {"error": f"Failed to list agents: {str(e)}"}
     
-    blocks_response = client.blocks.list(label=SHARED_BLOCK_LABEL)
-    blocks_list = blocks_response.data if hasattr(blocks_response, 'data') else blocks_response
-    existing = list(blocks_list)
+    # blocks_page might be a SyncArrayPage
+    blocks_page = client.blocks.list(label=SHARED_BLOCK_LABEL)
+    existing = list(blocks_page)
     shared_block_id = existing[0].id if existing else None
 
     # Run simulation
