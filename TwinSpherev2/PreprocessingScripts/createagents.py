@@ -15,7 +15,7 @@ if not LETTA_AI_API_KEY:
     raise ValueError("LETTA_API_KEY not found in .env file. Please check your .env file in the root directory.")
 
 print(f"[i] Connecting to Letta server at: {LETTA_SERVER_URL}")
-CLIENT = Letta(token=LETTA_AI_API_KEY, base_url=LETTA_SERVER_URL)
+CLIENT = Letta(api_key=LETTA_AI_API_KEY, base_url=LETTA_SERVER_URL)
 SHARED_BLOCK_LABEL = "public_reactions"
 
 PERSONA_CSV = os.path.join(os.path.dirname(__file__), '..', 'Data', 'Persona.csv')
@@ -172,7 +172,7 @@ def register_tools():
 
 # --- Create Shared Memory ---
 def ensure_shared_block():
-    existing = CLIENT.blocks.list(label=SHARED_BLOCK_LABEL)
+    existing = list(CLIENT.blocks.list(label=SHARED_BLOCK_LABEL))
     if existing:
         print(f"[=] Shared memory already exists: {existing[0].id}")
         return existing[0]
@@ -191,7 +191,7 @@ def create_agents_from_csv(csv_path: str, tools: list, shared_block_id: str):
                 print(f"[!] Skipping invalid row: {row}")
                 continue
         
-            existing = CLIENT.agents.list(name=name)
+            existing = list(CLIENT.agents.list(name=name))
             if existing:
                 print(f"[=] Agent already exists: {name}")
                 continue

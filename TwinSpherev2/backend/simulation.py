@@ -2,8 +2,8 @@ import base64
 import json
 import asyncio
 import re
-from letta_client import Base64Image, Letta, MessageCreate, TextContent, ImageContent
-from letta_client.types import AgentState, ImageContentSource
+from letta_client import Letta
+from letta_client.types import AgentState
 from typing import List, Dict, Optional
 from dotenv import load_dotenv
 import os
@@ -11,10 +11,10 @@ load_dotenv()
 
 LETTA_AI_API_KEY = os.getenv("LETTA_API_KEY")
 if not LETTA_AI_API_KEY:
-    raise ValueError("LETTA_API_KEY not found in .env file. Please create a .env file in the 'digital-clone' directory.")
+    raise ValueError("LETTA_API_KEY not found in .env file. Please create a .env file in the root directory.")
 
 client = Letta(
-    token=LETTA_AI_API_KEY,
+    api_key=LETTA_AI_API_KEY,
     base_url=os.getenv("LETTA_SERVER_URL", "https://api.letta.com")
 )
 
@@ -26,7 +26,7 @@ def encode_image_to_base64(image_path: str) -> dict:
         "type": "image",
         "source": {
             "type": "base64",
-            "media_type": "image/jpeg",  # Update to png if needed
+            "media_type": "image/jpeg",
             "data": encoded_data
         }
     }
@@ -40,13 +40,9 @@ async def run_simulation_with_image(
 ) -> Dict[str, dict]:
     """
     Simulate each agent reacting to a crisis post with optional image.
-    Returns a dictionary of agent_id -> reaction dict.
+    Returns a list of reaction dicts.
     """
     try:
-        results = {}
-        # encoded_image = encode_image_to_base64(image_path)
-
-        #Present the ad to each agent concurrently
         tasks = [run_simulation_agent(agent, post_text, image_url) for agent in agents]
         results = await asyncio.gather(*tasks)
 
@@ -57,43 +53,9 @@ async def run_simulation_with_image(
         print(f"Successfully collected {len(successful_results)} results.")
         return successful_results
 
-            # messages = [{
-            #     "role": "user",
-            #     "content": [
-            #         {
-            #             "type": "text",
-            #             "text": text_prompt["text"]
-            #         },
-            #         {
-            #             "type": "image",
-            #             "source": {
-            #                 "type": "base64",
-            #                 "media_type": "image/jpg",
-            #                 "data": encode_image
-            #             }
-            #         }
-            #     ]
-            # }]
-            
-            # response = client.agents.messages.create(
-            #     agent_id=agent.id,
-            #     messages=messages
-            # )
-
-            # print(f"Response: {response.content}")
-
-            # if hasattr(response, "content"):
-            #     results[agent.id] = {
-            #         "agent_name": agent.name,
-            #         "json_reaction": response.content.strip()
-            #     }
-            # else:
-            #     results[agent.id] = {"agent_name": agent.name, "json_reaction": "No response"}
-
     except Exception as e:
         print(f"❌ Error while running simulation: {e}")
-
-    return results
+        return []
 
 async def run_simulation_agent(agent, ad_content: str, image_url: str = None):
     """Presents an ad to a single agent and processes its response."""
@@ -136,59 +98,89 @@ async def run_simulation_agent(agent, ad_content: str, image_url: str = None):
     """
 
     try:
-        # Prepare message content
-        content = [{"type": "text", "text": prompt}]
+        # Prepare message content — v1.7.11 uses plain dicts, no MessageCreate class
+        # Simple text-only content (string shorthand)
+        message_content = prompt
         
+        # If there's an image, use the list-of-parts format
         if image_url and image_url.strip():
-            content.append({
-                "type": "image",
-                "source": {
-                    "type": "url",
-                    "url": image_url
-                }
-            })
+            message_content = [
+                {"type": "text", "text": prompt},
+                {"type": "image_url", "image_url": {"url": image_url}}
+            ]
 
-        # Send the prompt to the agent
+        # Send the prompt to the agent using create(streaming=True)
         print(f"  - Sending prompt to {agent.name}...")
-        response = client.agents.messages.create_stream(
+        stream = client.agents.messages.create(
             agent_id=agent.id,
-            messages=[{
-                "role": "user",
-                "content": content
-            }]
+            messages=[{"role": "user", "content": message_content}],
+            streaming=True
         )
 
         # Track tool calls and content
         tool_calls = []
         response_content = ""
 
-        for chunk in response:
-            msg_type = getattr(chunk, 'message_type', 'unknown')
-            # Letta 0.1.x may use 'internal_monologue' or 'assistant_message' for text
-            if msg_type in ["assistant_message", "internal_monologue"]:
-                text = getattr(chunk, 'content', '') or ''
-                response_content += text
+        for chunk in stream:
+            msg_type = getattr(chunk, 'message_type', None)
+            
+            if msg_type == "assistant_message":
+                # content can be a string OR a list of content parts
+                raw = getattr(chunk, 'content', None)
+                if isinstance(raw, str):
+                    response_content += raw
+                elif isinstance(raw, list):
+                    for part in raw:
+                        if isinstance(part, str):
+                            response_content += part
+                        elif hasattr(part, 'text'):
+                            response_content += part.text or ''
+                        elif isinstance(part, dict) and part.get('type') == 'text':
+                            response_content += part.get('text', '')
+                            
+            elif msg_type == "internal_monologue":
+                # Also capture internal monologue in case JSON appears there
+                raw = getattr(chunk, 'content', None) or getattr(chunk, 'monologue', None) or ''
+                if isinstance(raw, str):
+                    response_content += raw
+                    
             elif msg_type == "tool_call_message":
-                tool_name = chunk.tool_call.name
-                tool_calls.append(tool_name)
-                print(f"  [DEBUG] Tool Call by {agent.name}: {tool_name}")
+                # tool_call is a ToolCall object with a .name attribute
+                tc = getattr(chunk, 'tool_call', None)
+                if tc:
+                    tool_name = getattr(tc, 'name', None)
+                    if tool_name:
+                        tool_calls.append(tool_name)
+                        print(f"  [DEBUG] Tool Call by {agent.name}: {tool_name}")
         
         print(f"  [DEBUG] Tool calls made: {tool_calls}")
-        print(f"  [DEBUG] Raw response from {agent.name} (length: {len(response_content)}): '{response_content}'")
+        print(f"  [DEBUG] Raw response from {agent.name} (length: {len(response_content)}): '{response_content[:200]}'")
 
-        # If we got an empty response but tool calls were made, try to get a follow-up
+        # If we got an empty response but tool calls were made, request a follow-up
         if not response_content.strip() and tool_calls:
             print(f"  - Agent {agent.name} made tool calls but gave empty response. Requesting JSON...")
-            follow_up_stream = client.agents.messages.create_stream(
+            follow_up_stream = client.agents.messages.create(
                 agent_id=agent.id,
-                messages=[MessageCreate(role="user", content="Please provide your JSON analysis now as required in the format: {\"reaction\": \"action\", \"confidence\": 0-100, \"reasoning\": \"explanation\", \"tags\": [\"tag1\", \"tag2\"], \"final_message\": \"your post\"}")],
+                messages=[{
+                    "role": "user",
+                    "content": 'Please provide your JSON analysis now as required in the format: {"reaction": "action", "confidence": 0-100, "reasoning": "explanation", "tags": ["tag1", "tag2"], "final_message": "your post"}'
+                }],
+                streaming=True
             )
             follow_up_content = ""
             for chunk in follow_up_stream:
-                if chunk.message_type == "assistant_message" and chunk.content:
-                    follow_up_content += chunk.content
+                if getattr(chunk, 'message_type', None) == "assistant_message":
+                    raw = getattr(chunk, 'content', '') or ''
+                    if isinstance(raw, str):
+                        follow_up_content += raw
+                    elif isinstance(raw, list):
+                        for part in raw:
+                            if isinstance(part, str):
+                                follow_up_content += part
+                            elif hasattr(part, 'text'):
+                                follow_up_content += part.text or ''
             response_content = follow_up_content
-            print(f"  - Follow-up response from {agent.name} (length: {len(response_content)}): '{response_content}'")
+            print(f"  - Follow-up response from {agent.name} (length: {len(response_content)}): '{response_content[:200]}'")
         
         if not response_content.strip():
             print("Warning: Empty or whitespace-only response received")
@@ -198,11 +190,8 @@ async def run_simulation_agent(agent, ad_content: str, image_url: str = None):
         json_response = extract_json_from_string(response_content)
 
         if json_response:
-            # Add agent info to the response
             json_response['agent_id'] = agent.id
             json_response['agent_name'] = agent.name
-            # FIX: The agent object from list() doesn't contain memory_blocks.
-            # We will return a placeholder for now.
             json_response['description'] = "Persona description (details not available from list view)."
             return json_response
         else:
@@ -222,8 +211,6 @@ def extract_json_from_string(text: str) -> dict:
         print(f"Warning: Empty or whitespace-only response received")
         return None
     
-    # Try to find JSON object enclosed in curly braces
-    # Look for the first { and the last } to handle nested objects
     start_idx = text.find('{')
     end_idx = text.rfind('}')
     
@@ -238,8 +225,7 @@ def extract_json_from_string(text: str) -> dict:
     except json.JSONDecodeError as e:
         print(f"Warning: Could not decode JSON from string: '{json_str[:100]}...', Error: {e}")
         
-        # Try to clean up common issues
-        # Remove any trailing commas before closing braces/brackets
+        # Try to clean up common issues (trailing commas)
         cleaned = re.sub(r',(\s*[}\]])', r'\1', json_str)
         try:
             return json.loads(cleaned)
