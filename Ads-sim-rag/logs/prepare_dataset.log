@@ -1,0 +1,14 @@
+2026-06-25 04:25:58,089 [INFO] Loading tokenizer (meta-llama/Meta-Llama-3-8B)...
+2026-06-25 04:25:58,636 [INFO] HTTP Request: HEAD https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-06-25 04:26:00,646 [INFO] HTTP Request: HEAD https://huggingface.co/meta-llama/Meta-Llama-3-8B/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-25 04:26:00,867 [INFO] HTTP Request: GET https://huggingface.co/api/models/meta-llama/Meta-Llama-3-8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-25 04:26:01,091 [INFO] HTTP Request: GET https://huggingface.co/api/models/meta-llama/Meta-Llama-3-8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-25 04:26:02,252 [INFO] HTTP Request: GET https://huggingface.co/api/models/meta-llama/Meta-Llama-3-8B "HTTP/1.1 200 OK"
+2026-06-25 04:26:02,269 [WARNING] tokenizer.chat_template is None. Manually setting Llama-3 template.
+2026-06-25 04:26:02,269 [INFO] Reading raw data from data/raw/1oe62zw_user_histories.json
+2026-06-25 04:26:02,272 [INFO] Loaded histories for 4 users.
+2026-06-25 04:26:02,281 [INFO] Created data/processed/user_datasets/ricky-from-scotland.jsonl with 22 comments.
+2026-06-25 04:26:02,282 [INFO] Created data/processed/user_datasets/Lazy_Bus_5944.jsonl with 4 comments.
+2026-06-25 04:26:02,283 [INFO] Created data/processed/user_datasets/jmkiol.jsonl with 48 comments.
+2026-06-25 04:26:02,286 [INFO] Created data/processed/user_datasets/Capital6238.jsonl with 98 comments.
+2026-06-25 04:26:02,286 [INFO] Done. Processed 4 users into data/processed/user_datasets/

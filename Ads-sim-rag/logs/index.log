@@ -1,0 +1,141 @@
+2026-06-25 04:20:30,591 [INFO] TensorFlow version 2.21.0 available.
+2026-06-25 04:20:32,352 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-25 04:20:32,363 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-25 04:20:32,578 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-25 04:20:32,596 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-25 04:20:32,599 [INFO] Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-06-25 04:20:32,801 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-25 04:20:32,821 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-25 04:20:33,033 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-25 04:20:33,052 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-06-25 04:20:33,283 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-25 04:20:33,292 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-06-25 04:20:33,507 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-25 04:20:33,515 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-06-25 04:20:33,735 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-06-25 04:20:33,956 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-25 04:20:33,968 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-25 04:20:34,206 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-25 04:20:34,227 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-25 04:20:34,532 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-25 04:20:34,752 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-25 04:20:34,989 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-25 04:20:35,196 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-25 04:20:35,429 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-25 04:20:35,453 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-25 04:20:35,665 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-25 04:20:35,677 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-25 04:20:35,892 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-25 04:20:35,913 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-06-25 04:20:36,131 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-25 04:20:36,149 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-25 04:20:36,356 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-25 04:20:36,587 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-25 04:20:36,860 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-25 04:20:36,879 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-06-25 04:20:37,099 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-06-25 04:20:37,548 [INFO] Existing vectors in DB: 11259
+2026-06-25 04:20:37,550 [INFO] Found 102 twin profiles in data/processed/
+2026-06-25 04:20:37,551 [INFO] [SKIP] twin_15033335 already indexed.
+2026-06-25 04:20:37,551 [INFO] [SKIP] twin_Adventurous-Sort-977 already indexed.
+2026-06-25 04:20:37,551 [INFO] [SKIP] twin_alpha-q6 already indexed.
+2026-06-25 04:20:37,551 [INFO] [SKIP] twin_Amethian926 already indexed.
+2026-06-25 04:20:37,551 [INFO] [SKIP] twin_avaaah20 already indexed.
+2026-06-25 04:20:37,551 [INFO] [SKIP] twin_Bananinhakawaii1234 already indexed.
+2026-06-25 04:20:37,551 [INFO] [SKIP] twin_basketball414 already indexed.
+2026-06-25 04:20:37,554 [INFO] [SKIP] twin_Bdublolz1996 already indexed.
+2026-06-25 04:20:37,554 [INFO] [SKIP] twin_beepsboopbops already indexed.
+2026-06-25 04:20:37,554 [INFO] [SKIP] twin_Big-Chance5392 already indexed.
+2026-06-25 04:20:37,555 [INFO] [SKIP] twin_billy_andbobby already indexed.
+2026-06-25 04:20:37,556 [INFO] [SKIP] twin_bladerunner_2049_ already indexed.
+2026-06-25 04:20:37,556 [INFO] [SKIP] twin_boomysmash already indexed.
+2026-06-25 04:20:37,557 [INFO] [SKIP] twin_Bralo123 already indexed.
+2026-06-25 04:20:37,557 [INFO] [SKIP] twin_Capital6238 already indexed.
+2026-06-25 04:20:37,557 [INFO] [SKIP] twin_CorrectWorker6693 already indexed.
+2026-06-25 04:20:37,558 [INFO] [SKIP] twin_CrashingOutwNigs already indexed.
+2026-06-25 04:20:37,558 [INFO] [SKIP] twin_Cultural_Feedback987 already indexed.
+2026-06-25 04:20:37,559 [INFO] [SKIP] twin_daringCOCO already indexed.
+2026-06-25 04:20:37,559 [INFO] [SKIP] twin_DarkSoulsXvi_Yt already indexed.
+2026-06-25 04:20:37,559 [INFO] [SKIP] twin_dogownerjr already indexed.
+2026-06-25 04:20:37,559 [INFO] [SKIP] twin_Early_Ad_8809 already indexed.
+2026-06-25 04:20:37,562 [INFO] [SKIP] twin_Echo-14x already indexed.
+2026-06-25 04:20:37,562 [INFO] [SKIP] twin_ElLawMental already indexed.
+2026-06-25 04:20:37,562 [INFO] [SKIP] twin_Encorajar already indexed.
+2026-06-25 04:20:37,562 [INFO] [SKIP] twin_EPIC1NUGGET already indexed.
+2026-06-25 04:20:37,562 [INFO] [SKIP] twin_External-Gate-9284 already indexed.
+2026-06-25 04:20:37,563 [INFO] [SKIP] twin_familyparka already indexed.
+2026-06-25 04:20:37,563 [INFO] [SKIP] twin_fattgum already indexed.
+2026-06-25 04:20:37,563 [INFO] [SKIP] twin_Financial-Fennel7526 already indexed.
+2026-06-25 04:20:37,563 [INFO] [SKIP] twin_Frozzzz_ already indexed.
+2026-06-25 04:20:37,563 [INFO] [SKIP] twin_gp886 already indexed.
+2026-06-25 04:20:37,563 [INFO] [SKIP] twin_HahnDragoner523 already indexed.
+2026-06-25 04:20:37,563 [INFO] [SKIP] twin_HeatCompetitive1556 already indexed.
+2026-06-25 04:20:37,567 [INFO] [SKIP] twin_HHM4RK already indexed.
+2026-06-25 04:20:37,568 [INFO] [SKIP] twin_Impossible-Peace4003 already indexed.
+2026-06-25 04:20:37,571 [INFO] [SKIP] twin_Insomnamarth already indexed.
+2026-06-25 04:20:37,571 [INFO] [SKIP] twin_Intelligent-One8520 already indexed.
+2026-06-25 04:20:37,571 [INFO] [SKIP] twin_Intelligent_Sound983 already indexed.
+2026-06-25 04:20:37,571 [INFO] [SKIP] twin_IrresponsibleGing already indexed.
+2026-06-25 04:20:37,576 [INFO] [SKIP] twin_J1995916 already indexed.
+2026-06-25 04:20:37,576 [INFO] [SKIP] twin_JayOgre already indexed.
+2026-06-25 04:20:37,576 [INFO] [SKIP] twin_JesseK432 already indexed.
+2026-06-25 04:20:37,577 [INFO] [SKIP] twin_jmkiol already indexed.
+2026-06-25 04:20:37,578 [INFO] [SKIP] twin_JohnSmith2036 already indexed.
+2026-06-25 04:20:37,578 [INFO] [SKIP] twin_JustAPrism already indexed.
+2026-06-25 04:20:37,578 [INFO] [SKIP] twin_Key-Debt8830 already indexed.
+2026-06-25 04:20:37,585 [INFO] [SKIP] twin_KeyLong5412 already indexed.
+2026-06-25 04:20:37,587 [INFO] [SKIP] twin_Kinzua1113 already indexed.
+2026-06-25 04:20:37,587 [INFO] [SKIP] twin_Klopapieraufdie1 already indexed.
+2026-06-25 04:20:37,587 [INFO] [SKIP] twin_Lazy_Bus_5944 already indexed.
+2026-06-25 04:20:37,588 [INFO] [SKIP] twin_leatherFrost already indexed.
+2026-06-25 04:20:37,588 [INFO] [SKIP] twin_Litterbeast already indexed.
+2026-06-25 04:20:37,589 [INFO] [SKIP] twin_lucariolgnd3-28 already indexed.
+2026-06-25 04:20:37,590 [INFO] [SKIP] twin_Lustful_Lost-soul already indexed.
+2026-06-25 04:20:37,590 [INFO] [SKIP] twin_Lycaniz already indexed.
+2026-06-25 04:20:37,591 [INFO] [SKIP] twin_MangaManiac42 already indexed.
+2026-06-25 04:20:37,591 [INFO] [SKIP] twin_marius2357 already indexed.
+2026-06-25 04:20:37,592 [INFO] [SKIP] twin_MeanAverageness already indexed.
+2026-06-25 04:20:37,592 [INFO] [SKIP] twin_Meisterdieb-1412 already indexed.
+2026-06-25 04:20:37,593 [INFO] [SKIP] twin_Metashi_Shiro already indexed.
+2026-06-25 04:20:37,593 [INFO] [SKIP] twin_mustafz_MBD already indexed.
+2026-06-25 04:20:37,594 [INFO] [SKIP] twin_NanoCowboy- already indexed.
+2026-06-25 04:20:37,594 [INFO] [SKIP] twin_Negative_Street8850 already indexed.
+2026-06-25 04:20:37,594 [INFO] [SKIP] twin_No-Butterscotch1358 already indexed.
+2026-06-25 04:20:37,596 [INFO] [SKIP] twin_No-Explanation-358 already indexed.
+2026-06-25 04:20:37,596 [INFO] [SKIP] twin_No_Success5832 already indexed.
+2026-06-25 04:20:37,596 [INFO] [SKIP] twin_ParsleyImmediate8815 already indexed.
+2026-06-25 04:20:37,597 [INFO] [SKIP] twin_PenaltyNo1407 already indexed.
+2026-06-25 04:20:37,597 [INFO] [SKIP] twin_PheonixBomb already indexed.
+2026-06-25 04:20:37,598 [INFO] [SKIP] twin_Pitiful_Newspaper_25 already indexed.
+2026-06-25 04:20:37,598 [INFO] [SKIP] twin_Professional_Fun8463 already indexed.
+2026-06-25 04:20:37,598 [INFO] [SKIP] twin_Rawden2006 already indexed.
+2026-06-25 04:20:37,599 [INFO] [SKIP] twin_regularguy8871 already indexed.
+2026-06-25 04:20:37,599 [INFO] [SKIP] twin_Relative_Island7141 already indexed.
+2026-06-25 04:20:37,599 [INFO] [SKIP] twin_RemiruVM already indexed.
+2026-06-25 04:20:37,599 [INFO] [SKIP] twin_Richard2824 already indexed.
+2026-06-25 04:20:37,599 [INFO] [SKIP] twin_ricky-from-scotland already indexed.
+2026-06-25 04:20:37,599 [INFO] [SKIP] twin_ShadowNinjaAce already indexed.
+2026-06-25 04:20:37,599 [INFO] [SKIP] twin_Shinzo77 already indexed.
+2026-06-25 04:20:37,599 [INFO] [SKIP] twin_Silver_Use_212 already indexed.
+2026-06-25 04:20:37,603 [INFO] [SKIP] twin_Special-Ad1635 already indexed.
+2026-06-25 04:20:37,603 [INFO] [SKIP] twin_Stock_Sprinkles_7394 already indexed.
+2026-06-25 04:20:37,604 [INFO] [SKIP] twin_stranger_guy24 already indexed.
+2026-06-25 04:20:37,604 [INFO] [SKIP] twin_Striking-Bear4450 already indexed.
+2026-06-25 04:20:37,605 [INFO] [SKIP] twin_Suitable-Comb5302 already indexed.
+2026-06-25 04:20:37,605 [INFO] [SKIP] twin_SweetOutlandishness8 already indexed.
+2026-06-25 04:20:37,605 [INFO] [SKIP] twin_Terraria4958 already indexed.
+2026-06-25 04:20:37,605 [INFO] [SKIP] twin_TheCrystCreeper already indexed.
+2026-06-25 04:20:37,605 [INFO] [SKIP] twin_thug-duck already indexed.
+2026-06-25 04:20:37,605 [INFO] [SKIP] twin_Top_Preparation7874 already indexed.
+2026-06-25 04:20:37,605 [INFO] [SKIP] twin_Trick_Calligrapher75 already indexed.
+2026-06-25 04:20:37,605 [INFO] [SKIP] twin_Uni2025_ already indexed.
+2026-06-25 04:20:37,605 [INFO] [SKIP] twin_Watercolorcupcake already indexed.
+2026-06-25 04:20:37,605 [INFO] [SKIP] twin_Whiterlight9 already indexed.
+2026-06-25 04:20:37,605 [INFO] [SKIP] twin_WhiteTerraria already indexed.
+2026-06-25 04:20:37,605 [INFO] [SKIP] twin_YAPUK_NUL already indexed.
+2026-06-25 04:20:37,611 [INFO] [SKIP] twin_YellingBear already indexed.
+2026-06-25 04:20:37,611 [INFO] [SKIP] twin_Zimvex24 already indexed.
+2026-06-25 04:20:37,611 [INFO] [SKIP] twin_Zombieking2357 already indexed.
+2026-06-25 04:20:37,612 [INFO] [SKIP] twin_zombiezoo25 already indexed.
+2026-06-25 04:20:37,612 [INFO] [SKIP] twin_ZookeepergameOne2358 already indexed.
+2026-06-25 04:20:37,612 [INFO] Done. Indexed: 0 | Skipped (already indexed): 102 | Total vectors in DB: 11259

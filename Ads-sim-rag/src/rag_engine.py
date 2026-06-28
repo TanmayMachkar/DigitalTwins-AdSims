@@ -8,9 +8,7 @@ import json, os
 
 client = OpenAI(base_url="http://localhost:11434/v1", api_key="ollama")
 
-embed_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
-    model_name="all-MiniLM-L6-v2"
-)
+embed_fn = embedding_functions.DefaultEmbeddingFunction()
 
 os.makedirs(EMBEDDING_DIR, exist_ok=True)
 

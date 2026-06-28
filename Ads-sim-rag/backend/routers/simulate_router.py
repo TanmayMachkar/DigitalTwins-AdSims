@@ -35,9 +35,7 @@ async def run_simulate_pipeline(post_id: str):
 
         # Instantiate chromadb and embedding function INSIDE the generator to avoid
         # module-level SentenceTransformer instantiation that causes import-time failures.
-        embed_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
-            model_name="all-MiniLM-L6-v2"
-        )
+        embed_fn = embedding_functions.DefaultEmbeddingFunction()
         chroma_client = chromadb.PersistentClient(path=EMBEDDING_DIR)
         collection = chroma_client.get_collection(name="user_memory", embedding_function=embed_fn)
 
